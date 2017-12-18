@@ -1,0 +1,1086 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+	<pattern>DEFINESTE * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DEFINITI * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DEFINITIE * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE INSEAMNA * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>LA CE SE REFERA * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>LA CE SE REFERA PRIN * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE REPREZINTA * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE ESTE * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>EXPLICA * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>EXPLICATI * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>EXPLICA-MI * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>EXPLICATI-MI * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern> * </pattern>
+	<template>
+		<srai>
+			DEFINESTE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DIN CE CAUZA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAUZA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE PROVOACA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DIN CE CAUZA APARE * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DIN CE CAUZA EXISTA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CE APARE * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CE EXISTA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CE APAR * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DIN CE CAUZA APAR * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CARE ESTE CAUZA * </pattern>
+	<template>
+		<srai>
+			CAUZA <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE ESTE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SE AFLA * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SUNT * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SE GASESTE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE APARE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SE GASESC * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE APAR * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE ESTE LOCALIZAT * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SUNT LOCALIZATI * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SUNT LOCALIZATE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SE ITALNESTE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE SE INTALNESC * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>UNDE * </pattern>
+	<template>
+		<srai>
+			UNDE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>PE CINE * </pattern>
+	<template>
+		<srai>
+			CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE * </pattern>
+	<template>
+		<srai>
+			CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CINE * </pattern>
+	<template>
+		<srai>
+			DE CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CE * </pattern>
+	<template>
+		<srai>
+			DE CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CARE * </pattern>
+	<template>
+		<srai>
+			PE CARE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>PE CARE * </pattern>
+	<template>
+		<srai>
+			PE CARE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CU CARE * </pattern>
+	<template>
+		<srai>
+			CU CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CU CE * </pattern>
+	<template>
+		<srai>
+			CU CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CU CINE * </pattern>
+	<template>
+		<srai>
+			CU CE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DESCRIERE * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DESCRIE * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DESCRIETI * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CUM ARATA * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CE FORMA ARE * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CU CE ADUCE * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>A CE ARATA * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CU CE SEAMANA * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CUM PARE * </pattern>
+	<template>
+		<srai>
+			DESCRIE <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CUI * </pattern>
+	<template>
+		<srai>
+			CUI <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAREI * </pattern>
+	<template>
+		<srai>
+			CUI <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CARUI * </pattern>
+	<template>
+		<srai>
+			CUI <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAROR * </pattern>
+	<template>
+		<srai>
+			CUI <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CUM * </pattern>
+	<template>
+		<srai>
+			CUM <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>IN CAT TIMP * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT TIMP * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>PENTRU CAT TIMP * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT DUREAZA * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT TIMP NECESITA * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE CAT TIMP ESTE NEVOIE CA SA * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT TIMP DUREAZA * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT TINE * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAT NECESITA * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>CAND * </pattern>
+	<template>
+		<srai>
+			CAND <star index="1"/>
+		</srai>
+	</template>
+</category>
+
+
+<category>
+	<pattern>UNDE ESTE ASEZAT LARINGELE</pattern>
+	<template>
+		<random>
+			<li>LA NIVELUL EXTREMITATII CEFALICE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CUI ELEMENTE APARTINE LARINGELE</pattern>
+	<template>
+		<random>
+			<li>ELEMENTELOR SOMATICE ALE CAPULUI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE LARINGELE</pattern>
+	<template>
+		<random>
+			<li>ESTE UN VISCER SITUAT IN SEGMENTUL CARE LEAGA CAPUL DE TRUNCHI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CUI VISCERE APARTINE LARINGELE</pattern>
+	<template>
+		<random>
+			<li>VISCERELOR GATULUI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CUI PARTI A CORPULUI APARTINE CAVITATEA TORACICA</pattern>
+	<template>
+		<random>
+			<li>APARTINE TRUNCHIULUI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DE CE ESTE SEPARATA</pattern>
+	<template>
+		<random>
+			<li>DE CAVITATEA PELVIANA PRIN DIAFRAGMA PERINEALA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>UNDE CAVITATEA ABDOMINALA</pattern>
+	<template>
+		<random>
+			<li>IN INTERIORUL TRUNCHIULUI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CU CE SE CONTINUA</pattern>
+	<template>
+		<random>
+			<li>CAVITATEA PELVIANA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE CAVITATEA ABDOMINALA</pattern>
+	<template>
+		<random>
+			<li>ADAPOSTESTE ORGANE INTERNE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE CELULA</pattern>
+	<template>
+		<random>
+			<li>ESTE UNITATEA DE BAZA MORFOFUNCTIONALA A ORGANIZARII MATERIEI VII</li>
+			<li>POATE EXISTA SINGURA SAU IN GRUP</li>
+		<li>CELE TREI PARTI COMPONENTE PRINCIPALE DIN STRUCTURA CELULEI SUNT PLASMALENE CITOPLASMA SI NUCLEUL</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE CELULA</pattern>
+	<template>
+		<random>
+			<li>ARE INITIAL FORMA GLOBULOASA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE SEPARA PLASMALENA</pattern>
+	<template>
+		<random>
+			<li>STRUCTURILE INTERNE ALE CELULEI DE MEDIUL EXTRACELULAR</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE PLASMALENA</pattern>
+	<template>
+		<random>
+			<li>INCONJOARA CELULA</li>
+			<li>CONFERA FORMA CELULEI</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE MEMBRANA CELULARA</pattern>
+	<template>
+		<random>
+			<li>CUPRINDE IN PRINCIPAL FOSFOLIPIDE SI PROTEINE</li>
+			<li>ARE O DISTRIBUTIE NEUNIFORMA A PROTEINELOR IN CADRUL STRUCTURII LIPIDICE</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE MEMBRANA CELULARA</pattern>
+	<template>
+		<random>
+			<li>CONSTITUIE MODELUL MOZAIC FLUID</li>
+			<li>PERMITE UN SCHIMB BIDIRECTIONAL DE SUBSTANTE NUTRITIVE</li>
+		<li>PERMITE UN TRANSFER IONIC CARE DETERMINA APARITIA CURENTILOR ELECTRICI</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE CITOPLASMA</pattern>
+	<template>
+		<random>
+			<li>ARE O STRUCTURA COMPLEXA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE CITOPLASMA</pattern>
+	<template>
+		<random>
+			<li>ESTE COMPONENTA LA NIVELUL CAREIA SE DESFASOARA PRINCIPALELE FUNCTII VITALE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE ORGANITELE CELULARE</pattern>
+	<template>
+		<random>
+			<li>REPREZINTA PARTEA STRUCTURATA A CITOPLASMEI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE ORGANITELE CELULARE</pattern>
+	<template>
+		<random>
+			<li>SUNT DE DOUA TIPURI COMUNE TUTUROR CELULELOR SI SPECIFICE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE RIBOZOMI</pattern>
+	<template>
+		<random>
+			<li>REPREZINTA SEDIUL SINTEZEI PROTEINELOR</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE APARATUL GOLGI</pattern>
+	<template>
+		<random>
+			<li>ESTE ALCATUIT DIN DICTIOZOMI</li>
+			<li>ESTE FORMAT DIN CISTERNE APLATIZATE</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE APARATUL GOLGI</pattern>
+	<template>
+		<random>
+			<li>ARE ROL IN PROCESELE DE SECRETIE CELULARA</li>
+			<li>ARE ROL IN SINTEZA DE MEMBRANE</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE MITOCONDRII</pattern>
+	<template>
+		<random>
+			<li>AU ROL DIRECT IN ELIBERAREA DE ENERGIE CELULARA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE LIZOZOMI</pattern>
+	<template>
+		<random>
+			<li>SUNT CORPUSCULI SFERICI</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>UNDE LIZOZOMI</pattern>
+	<template>
+		<random>
+			<li>SUNT RASPANDITI IN INTREAGA HIALOPLASMA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE LIZOZOMI</pattern>
+	<template>
+		<random>
+			<li>JOACA ROL IMPORTANT IN CELULELE FAGOCITARE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE MIOFIBRILE</pattern>
+	<template>
+		<random>
+			<li>SUNT ORGANITE SPECIFICE</li>
+			<li>SUNT ELEMENTE CONTRACTILE</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE CONTIN ERITROCITELE</pattern>
+	<template>
+		<random>
+			<li>CONTIN HEMOGLOBINA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE ERITROCITELE</pattern>
+	<template>
+		<random>
+			<li>SUNT CELULE ANUCLEATE CU ROL IN TRANSPORTUL NUTRIENTILOR</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE CONTIN CROMOZOMII</pattern>
+	<template>
+		<random>
+			<li>PROTEINE HISTONICE SI NON HISTONICE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE CROMOZOMI</pattern>
+	<template>
+		<random>
+			<li>SE FORMEAZA DIN GRANULATIILE DE CROMATINA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE OSMOZA</pattern>
+	<template>
+		<random>
+			<li>REPREZINTA DIFUZIUNEA APEI SOLVENTULUI DINTRO SOLUTIE</li>
+			<li>CONSTA IN TRECEREA APEI DIN COMPARTIMENTUL CU SOLUTIE MAI DILUATA CATRE CEL CU SOLUTIE MAI CONCENTRATA</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE PRESUPUNE OSMOZA</pattern>
+	<template>
+		<random>
+			<li>PRESUPUNE O MEMBRANA SEMIPERMEABILA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE ASIGURA TRANSPORTUL TRANSMEMBRANAR ACTIV</pattern>
+	<template>
+		<random>
+			<li>ASIGURA DEPLASAREA MOLECULELOR SI IONILOR IN SENSUL GRADIENTELOR LOR DE CONCENTRATIE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CUM POATE FI TRANSPORTUL TRANSMEMBRANAR ACTIV</pattern>
+	<template>
+		<random>
+			<li>PRIMAR SI SECUNDAR</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE PROPRIETATILE SPECIALE ALE CELULELOR</pattern>
+	<template>
+		<random>
+			<li>PROPRIETATILE SPECIALE ALE CELULELOR SUNT CONTRACTILITATEA MUSCULARASECRETIA ENDOCRINASECRETIA EXOCRINA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE SINTETIZEAZA FIECARE CELULA</pattern>
+	<template>
+		<random>
+			<li>SUBSTANTE PROTEICE SI LIPIDICE PROPRII SUBSTANTE NECESARE PENTRU REFACEREA STRUCTURILOR PROPRII SUBSTANTE PE CARE LE SECRETA IN MEDIUL INTERN SUBSTANTE CU ROL METABOLIC SAU REGLATOR SUBSTANTE NECESARE PENTRU CRESTERE SAU INMULTIRE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE TESUTURI</pattern>
+	<template>
+		<random>
+			<li>SUNT SISTEME ORGANIZATE DE MATERIE VIE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DESCRIE TESUTURI</pattern>
+	<template>
+		<random>
+			<li>AU CELULELE UNITE INTRE ELE PRIN SUBSTANTA DE CIMENT SUMBSTANTA FUNDAMENTALA</li>
+			<li>SUNT FORMATE DIN CELULE CARE INDEPLINESC IN ORGANISM ACEEASI FUNCTIE SAU ACELASI GRUP DE FUNCTII</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE TESUTUL EPITELIAL</pattern>
+	<template>
+		<random>
+			<li>FORMEAZA EPIDERMA SI INTRA IN STRUCTURA ORGANELOR DE SIMT</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CUM SE CLASIFICA TESUTUL CONJUNCTIV</pattern>
+	<template>
+		<random>
+			<li>TESUT DUR TESUT SEMIDUR TESUT MOALE</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE ADIPOCITELE</pattern>
+	<template>
+		<random>
+			<li>SUNT CELULE GLOBULOASE CE PREZINTA LIPIDE IN CITOPLASMA</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE TESUTUL OSOS</pattern>
+	<template>
+		<random>
+			<li>ESTE O VARIETATE DE TESUT CONJUNCTIV</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>CE FORMEAZA TESUTUL OSOS</pattern>
+	<template>
+		<random>
+			<li>OASE ADAPTATE PENTRU FUNCTIA DE SUSTINERE A ORGANISMULUI</li>
+			<li>OASE A CAROR MATRICE ORGANICA ESTE ALCATUITA DIN SUBSTANTA FUNDAMENTALA SI FIBRE DE COLAGEN</li>
+	</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>DEFINESTE TESUTUL NERVOS</pattern>
+	<template>
+		<random>
+			<li>ESTE ALCATUIT DIN CELULE NERVOASE CARE NU SE DIVID NEURONII</li>
+		</random>
+	</template>
+</category>
+
+</aiml>
