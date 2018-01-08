@@ -18,6 +18,7 @@ HEADERS = {
 }
 
 # Patterns used for parsing data.
+TOPIC_PATTERN = r"<DIV class='ribbon round blue'>\s*<H3><SPAN>([^<]+)</SPAN></H3>"
 TEST_BUTTON_PATTERN = r"<a class='btn_teste btn_teste-4 btn_teste-4b fa-check' href='([^']+)'> Start test</a>"
 LAST_PAGE_PATTERN = r"<a href='[^?]+\?pagina=(\d+)'><b>&#187;</b></a></div>"
 QUESTIONS_AND_ANSWERS_PATTERN = r"<h2 class='toc-backref'>(?P<question>.+?)</h2>[\s\S]+?<ul class='wrapping-list'>(?P<answers_body>[\s\S]+?)</ul>"
@@ -47,7 +48,11 @@ if __name__ == '__main__':
         )
 
         # For each page retrieve it's links towards the tests.
-        for test_button_uri in re.findall(TEST_BUTTON_PATTERN, indexed_page):
+        topics = re.findall(TOPIC_PATTERN, indexed_page)
+        topics = [
+            re.sub('\d', '', topic.split(':')[-1]).strip() for topic in topics
+        ]
+        for test_button_uri, topic in zip(re.findall(TEST_BUTTON_PATTERN, indexed_page), topics):
             questions = []
 
             # For each test retrieve the token required for the POST request.
@@ -63,7 +68,8 @@ if __name__ == '__main__':
             for match in re.finditer(QUESTIONS_AND_ANSWERS_PATTERN, test_page):
                 question = {
                     'question': match.group('question').strip(),
-                    'answers': []
+                    'answers': [],
+                    'topic': topic
                 }
 
                 for item in re.finditer(ANSWERS_PATTERN, match.group('answers_body')):
@@ -95,7 +101,7 @@ if __name__ == '__main__':
             # Extend the final result using the questions determined in this test.
             result.extend(questions)
 
-    with open('questions.json', 'w') as handle:
+    with open('questions_with_topics_1.json', 'w') as handle:
         handle.write(
             json.dumps(result, indent=4)
         )
