@@ -1,0 +1,14 @@
+[{
+		"q": "question1",
+		"correct": "Acesta este răspunsul corect la întrebarea 1.",
+		"answers": ["ans1", "ans2", "ans3"],
+		"path": "./images/img7.png"
+	},
+	{
+		"q": "question2",
+		"correct": "Acesta este răspunsul corect la întrebarea 2.",
+		"answers": ["ans1", "ans2", "ans3"],
+		"path": "./images/img7.png"
+
+	}
+]

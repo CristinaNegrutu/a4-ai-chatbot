@@ -11398,5 +11398,522 @@
             "Daltonism"
         ],
         "question": "Pierderea memoriei poarta numele de:"
+    },
+	{
+        "correct_answer": "Cartilajul lor se articulează cu sternul",
+        "answers": [
+            "Cartilajul lor se articulează cu sternul",
+            "Se articulează cu sternul prin intermediul coastei VII",
+            "Nu au cartilaj și nu ajung la stern",
+            "Se mai numesc flotante",
+            "Nici un raspuns nu este corect"
+        ],
+        "question": "Primele 7 coaste se numesc coaste adevărate deoarece:"
+    },
+    {
+        "correct_answer": "FSH",
+        "answers": [
+            "LH",
+            "FSH",
+            "Insulina",
+            "Adrenalina",
+            "Testosteron"
+        ],
+        "question": "Spermatogeneza este stimulată de:"
+    },
+    {
+        "correct_answer": "Prin căile descendente piramidale și extrapiramidale, centrii encefalici exercită controlul motor voluntar (calea piramidală) și automat (căile extrapiramidale).",
+        "answers": [
+            "Sensibilitatea kinestezică utilizează calea cordoanelor posterioare, împreună cu sensibilitatea tactilă protopatică.",
+            "Calea sensibilității proprioceptive de control al mișcării este constituită din două tracturi: spinocerebelos dorsal (încrucișat) și spinocerebelos ventral (direct).",
+            "Prin căile descendente piramidale și extrapiramidale, centrii encefalici exercită controlul motor voluntar (calea piramidală) și automat (căile extrapiramidale).",
+            "25% din fibrele fasciculului piramidal se încrucișează la nivelul bulbului, formând fasciculul piramidal încrucișat.",
+            "Fibrele fasciculului corticospinal anterior ajung în cordonul anterior de parte opusă, fiind situat lângă fisura mediană."
+        ],
+        "question": "Identificați afirmația adevărată:"
+    },
+    {
+        "correct_answer": "Nervii vestibulo-cohleari sunt nervi senzoriali şi sunt formaţi dintr-o componentă vestibulară, care are pe traseu ganglionul lui Corti",
+        "answers": [
+            "Dendritele, în porţiunea lor iniţială, sunt mai groase, apoi se subţiază",
+            "Teaca Henle separă membrana plasmatică a celulei Schwann de ţesutul conjunctiv din jur",
+            "Coarnele posterioare (dorsale) ale măduvei spinării conţin neuroni ai căilor senzitive care au semnificaţia de deutoneuron (al doilea neuron), protoneuronul fiind situat în ganglionii spinali",
+            "Nervii vestibulo-cohleari sunt nervi senzoriali şi sunt formaţi dintr-o componentă vestibulară, care are pe traseu ganglionul lui Corti",
+            "După câteva luni de la extirparea cerebelului, tulburările se atenuează prin compensare corticală"
+        ],
+        "question": "Identificaţi afirmaţia FALSĂ:"
+    },
+    {
+        "correct_answer": "Reflexul de micțiune este un reflex controlat în întregime de măduva spinării",
+        "answers": [
+            "Micțiunea este procesul de umplere a vezicii urinare atunci când este goala",
+            "Reflexul de micțiune este un reflex controlat în întregime de măduva spinării",
+            "Urina conține 5% apa si 95% substante minerale si substante organice",
+            "Sfincterul extern al vezicii urinare este alcătuit în întregime din mușchi neted",
+            "Vezica urinară este o cavitate cu peretii alcătuiți din musculatură striata formata din doua părti: corp și col"
+        ],
+        "question": "Alegeti afirmația corectă:"
+    },
+    {
+        "correct_answer": "Hormonul somatotrop stimulează procesele de sinteză a proteinelor;",
+        "answers": [
+            "Hormonul somatotrop stimulează procesele de sinteză a proteinelor;",
+            "STH favorizează procesele catabolice;",
+            "Cortizolul favorizează procesele de sinteză a proteinelor;",
+            "Testosteronul favorizează procesele catabolice;",
+            "Tiroxina stimulează procesele de sinteză a proteinelor."
+        ],
+        "question": "Alegeţi afirmaţia CORECTĂ despre mecanismele de reglare a metabolismului intermediar proteic:"
+    },
+    {
+        "correct_answer": "Sediul principal al secreției de H+",
+        "answers": [
+            "Sediul reabsorbției active a apei prin mecanism osmotic",
+            "Format din celule care conțin puține mitocondrii",
+            "Sediul principal al secreției de H+",
+            "Sediul reabsorbției facultative de sodiu (în gradient chimic)",
+            "Sediul secreției de potasiu"
+        ],
+        "question": "Tubul contort proximal este:"
+    },
+    {
+        "correct_answer": "Reduce volumul sanguin",
+        "answers": [
+            "Reabsorbţia de Na+ în schimbul K+",
+            "Reabsorbţia de Na+ în schimbul H+",
+            "Reabsorbţia de Na+ este insoţită de reabsorbţia clorului",
+            "Reduce volumul sanguin",
+            "Menţine presiunea osmotică a mediului intern"
+        ],
+        "question": "Aldosteronul produce următoarele acţiuni, cu EXCEPŢIA:"
+    },
+    {
+        "correct_answer": "Terminal, aorta abdominală se bifurcă la nivelul articulației sacro-iliace",
+        "answers": [
+            "Carotida externă dă artera vertebrală",
+            "Subclaviculara se continua cu artera brahială",
+            "Carotida internă irigă viscerele feței",
+            "Carotida comună dreaptă este ram al arcului aortic",
+            "Terminal, aorta abdominală se bifurcă la nivelul articulației sacro-iliace"
+        ],
+        "question": "Despre ramurile de vascularizație putem afirma:"
+    },
+    {
+        "correct_answer": "Toate variantele sunt adevărate",
+        "answers": [
+            "Arahnoida",
+            "Pia mater",
+            "Dura mater",
+            "Toate variantele sunt adevărate",
+            "Toate variantele sunt false"
+        ],
+        "question": "Meningele spinale sunt:"
+    },
+    {
+        "correct_answer": "25 impulsuri/minut",
+        "answers": [
+            "25 impulsuri/minut",
+            "70 impulsuri/minut",
+            "80 impulsuri/minut",
+            "45 impulsuri/minut",
+            "30 impulsuri/minut"
+        ],
+        "question": "Care este frecvența de descărcare a impusurilor de către fasciculul Hiss și rețeaua Purkinje?"
+    },
+    {
+        "correct_answer": "Prin homeostazie sunt menţinute, între anumite limite, unele valori ale mediului intern;",
+        "answers": [
+            "Prin homeostazie sunt menţinute, între anumite limite, unele valori ale mediului intern;",
+            "Prin intermediul mediatorilor chimici, sistemul endocrin realizează homeostazia;",
+            "Sistemul nervos participă la realizarea homeostaziei prin integrarea statică a organismului la condiţiile în permanentă schimbare a mediului intern;",
+            "În condiţii patologice (disfuncţii temporare sau permanente) homeostazia nu se poate realiza prin mijloace extracorporeale;",
+            "În organism, mecanismele de reglare se realizează numai prin bucle de feed-back medular."
+        ],
+        "question": "Alegeţi varianta corectă:"
+    },
+    {
+        "correct_answer": "Duodenului.",
+        "answers": [
+            "Jejunului;",
+            "Colonului;",
+            "Stomacului;",
+            "Esofagului;",
+            "Duodenului."
+        ],
+        "question": "Mucusul este secretat de glandele Brunner de la nivelul:"
+    },
+    {
+        "correct_answer": "Glucidele sunt degradate rapid, însă se obţin produși reziduali.",
+        "answers": [
+            "Glucidele sunt degradate rapid, însă se obţin produși reziduali.",
+            "Eficienţa transferului de energie prin catabolismul glucidic este de 66%.",
+            "Lipidele reprezintă o rezervă energetică de 50.000 kcal.",
+            "Arderea a 3g de proteine furnizează 12,3kcal.",
+            "Legătura macroergică a fosfocreatinei conţine 13.000 calorii/mol."
+        ],
+        "question": "Referitor la metabolism, este FALS că:"
+    },
+    {
+        "correct_answer": "Glucoză",
+        "answers": [
+            "Glucoză",
+            "Hormoni",
+            "Hematii",
+            "Săruri de Na",
+            "Fosfor"
+        ],
+        "question": "În urina finală se găsesc următoarele componente, cu o EXCEPȚIE:"
+    },
+    {
+        "correct_answer": "Cea mai importantă reabsorbție a apei are loc la nivelul tubului contort distal și este o reabsorbție obligatorie",
+        "answers": [
+            "Nefronii juxtamedulari au anse Henle lungi care coboară adânc în medulară",
+            "În condiții bazale debitul sangvin renal reprezintă 20% din debitul cardiac de repaus",
+            "Peste 99% din filtrat este reabsorbit în mod obișnuit în tubii uriniferi",
+            "Presiunea din capsula Bowmann, care se opune filtrării, este de aproximativ 18 mm Hg",
+            "Cea mai importantă reabsorbție a apei are loc la nivelul tubului contort distal și este o reabsorbție obligatorie"
+        ],
+        "question": "Următoarele afirmații sunt adevărate mai puțin una:"
+    },
+    {
+        "correct_answer": "Somatostatinei;",
+        "answers": [
+            "Acetilcolinei;",
+            "Prolactinei;",
+            "Somatostatinei;",
+            "Gastrinei;",
+            "Secretinei."
+        ],
+        "question": "Inhibiţia secreţiei de HCl este datorată:"
+    },
+    {
+        "correct_answer": "0 I, Rh – și B III, Rh –",
+        "answers": [
+            "0 I, Rh + și B III, Rh –",
+            "0 I, Rh – și B III, Rh +",
+            "0 I, Rh – și B III, Rh –",
+            "0 I, Rh + și B III, Rh +",
+            "0 I și B III, indiferent de Rh"
+        ],
+        "question": "Un pacient cu grupa B III, Rh – poate primi o transfuzie sangvină de la persoane cu grupa:"
+    },
+    {
+        "correct_answer": "Rădăcina posterioară a nervului spinal prezintă pe traiectul său ganglionul spinal, la nivelul căruia sunt localizaţiatât neuronii somatosenzitivi, cât şi neuronii viscerosenzitivi",
+        "answers": [
+            "Rădăcina posterioară a nervului spinal prezintă pe traiectul său ganglionul spinal, la nivelul căruia sunt localizaţiatât neuronii somatosenzitivi, cât şi neuronii viscerosenzitivi",
+            "Centrul reflexului miotatic se găseşte în nucleul ambiguu din bulb",
+            "Nervii olfactivi au originea reală în celulele multipolare din mucoasa olfactivă",
+            "Medial de şanţul olfactiv se afla şanţurile orbitare dispuse sub forma literei H, intre care se delimiteaza girii orbitali",
+            "Fibrele comisurale unesc cele doua emisfere, formând corpul calos, trigonal cerebral si comisura albă posterioară"
+        ],
+        "question": "Identificaţi afirmația corectă:"
+    },
+    {
+        "correct_answer": "STH",
+        "answers": [
+            "ACTH",
+            "TSH",
+            "STH",
+            "FSH",
+            "LH"
+        ],
+        "question": "NU este hormon glandulotrop al hipofizei:"
+    },
+    {
+        "correct_answer": "Mg2+ 3,3g",
+        "answers": [
+            "Acid uric 0,6-0,8g",
+            "Apă 95 %",
+            "Mg2+ 3,3g",
+            "Leucocite",
+            "Uree 25g"
+        ],
+        "question": "În urina finală (în cantitatea raportată la 24 h) se găsesc compuși precum, CU EXCEPȚIA:"
+    },
+    {
+        "correct_answer": "Aria vizuală primară se întinde mai ales pe faţa laterală a lobilor occipitali, de o parte şi de alta a scizurii calcarine",
+        "answers": [
+            "Urechea medie este o cavitate pneumatică în stânca temporalului",
+            "În centrul organului Corti se găseşte un spaţiu triunghiular numit tunelul Corti",
+            "De la nucleii vestibulari din bulb pleacă fasciculul vestibulo-spinal spre măduvă (controlează tonusul muscular)",
+            "Spaţiul cuprins cu privirea se numeşte câmp vizual",
+            "Aria vizuală primară se întinde mai ales pe faţa laterală a lobilor occipitali, de o parte şi de alta a scizurii calcarine"
+        ],
+        "question": "Identificaţi afirmaţia FALSĂ:"
+    },
+    {
+        "correct_answer": "Epitelial pseudostratificat",
+        "answers": [
+            "Exocrin",
+            "Epitelial pseudostratificat",
+            "Conjunctiv moale",
+            "Conjunctiv semidur",
+            "Senzorial"
+        ],
+        "question": "Epiteliul traheal este de tip:"
+    },
+    {
+        "correct_answer": "Adrenalină",
+        "answers": [
+            "Insulină",
+            "Dopamină",
+            "Cortizol",
+            "Tiroxină",
+            "Adrenalină"
+        ],
+        "question": "Glicogenoliza este activată de:"
+    },
+    {
+        "correct_answer": "Mușchiul nicovalei",
+        "answers": [
+            "Ciocanul",
+            "Mușchiul ciocanului",
+            "Scărița",
+            "Nicovala",
+            "Mușchiul nicovalei"
+        ],
+        "question": "Urechea medie NU conține în interiorul său:"
+    },
+    {
+        "correct_answer": "Perturbarea absorbţiei intestinale a acidului folic sau vitaminei B12",
+        "answers": [
+            "Alterarea producerii de hemoglobină",
+            "Aport insuficient de fier",
+            "Pierdere de sânge (hemoragie)",
+            "Perturbarea absorbţiei intestinale a acidului folic sau vitaminei B12",
+            "Perturbarea absorbţei intestinale a calciului"
+        ],
+        "question": "Anemia megaloblastică apare prin:"
+    },
+    {
+        "correct_answer": "Sensul transportului este din interstiţiul peritubular inspre interiorul tubului",
+        "answers": [
+            "Prin secreţie tubulară se elimină doar subsţanţe toxice",
+            "Mecanismele secreţiei tubulare sunt doar active",
+            "Sensul transportului este din interstiţiul peritubular inspre interiorul tubului",
+            "Prin secreţie, rinichiul intervine în reglarea concentraţiei plasmalemale de K+",
+            "Procesele de secreţie nu au loc pe toata lungimea nefronului"
+        ],
+        "question": "Una dintre următoarele afirmaţii despre secreția tubulară este adevarată:"
+    },
+    {
+        "correct_answer": "Se deschid în timpul diastolei, permiţând sângelui să treacă în ventricule",
+        "answers": [
+            "Se deschid în timpul sistolei, permiţând sângelui să treacă în atrii",
+            "Se deschid în timpul diastolei, permiţând sângelui să treacă în ventricule",
+            "Permit expulzia sângelui în artere",
+            "Împiedică revenirea sângelui în ventricule",
+            "Se mai numesc şi valve semilunare"
+        ],
+        "question": "Valvele atrio-ventriculare:"
+    },
+    {
+        "correct_answer": "Perechea III inervează mușchiul drept superior al globului ocular.",
+        "answers": [
+            "Fibrele vegetative ale perechii IX (pneumogastrici) provin din nucleul salivator inferior din bulb.",
+            "Nucleul de origine al perechii IV este situat în punte.",
+            "Originea aparentă a perechii VIII se află la nivelul șanţului retro-olivar.",
+            "Perechea III inervează mușchiul drept superior al globului ocular.",
+            "Fibrele perechii XII culeg excitaţii gustative de la nivelul bazei rădăcinii limbii."
+        ],
+        "question": "Este adevărat despre nervii cranieni:"
+    },
+    {
+        "correct_answer": "Concentrația crescută de estrogeni asupra gonadelor",
+        "answers": [
+            "Concentrația crescută de hormoni tiroidieni asupra adenohipofizei și hipotalamusului",
+            "Concentrația crescută de estrogeni asupra gonadelor",
+            "Concentrația crescută de cortizol asupra hipofizei anterioare",
+            "Concentrația crescută sanguină de Ca2+ asupra scăderii secreției de PTH",
+            "Concentrația crescută de glucoză sanguină asupra creșterii secreției de insulină"
+        ],
+        "question": "Mecanismul umoral de feedback negativ este declanșat de următoarele situații, CU EXCEPȚIA:"
+    },
+    {
+        "correct_answer": "Au rol bacteriostatic",
+        "answers": [
+            "Au rol de emulsionare a proteinelor din alimente, a căror tensiune superficială o reduc",
+            "Ajută la absorbția din tractul intestinal a aminoacizilor",
+            "Inhibă motilitatea intestinală",
+            "Au rol bacteriostatic",
+            "Facilitează activitatea amilazei pancreatice"
+        ],
+        "question": "Este adevarată urmatoarea afirmație referitoare la sărurile biliare:"
+    },
+    {
+        "correct_answer": "Sistemul nervos enteric al esofagului.,",
+        "answers": [
+            "Trunchiul cerebral;",
+            "Nervul vag;",
+            "Nervul accesor;",
+            "Sistemul nervos enteric al esofagului.,",
+            "Nervul glosofaringian."
+        ],
+        "question": "În timpul esofagian al deglutiţiei, peristaltismul secundar este coordonat de:"
+    },
+    {
+        "correct_answer": "6 mmHg.",
+        "answers": [
+            "47 mmHg;",
+            "40 mmHg;",
+            "50 mmHg;",
+            "25 mmHg;",
+            "6 mmHg."
+        ],
+        "question": "Gradientul dintre presiunile parţiale ale CO2 din aerul alveolar şi sângele din capilarele pulmonare este de:"
+    },
+    {
+        "correct_answer": "Hematopoieză",
+        "answers": [
+            "Vedere",
+            "Respirație tisulară",
+            "Hematopoieză",
+            "Circulație periferică",
+            "Funcționarea sistemului nervos central"
+        ],
+        "question": "Care este afirmația adevărată cu privire la rolul vitaminei B12 în organism:"
+    },
+    {
+        "correct_answer": "5-15cm",
+        "answers": [
+            "7-5 μ;",
+            "8-10μ;",
+            "5-15μ;",
+            "7,5μ;",
+            "5-15cm"
+        ],
+        "question": "Fibra musculara striata are urmatoarele dimensiuni:"
+    },
+    {
+        "correct_answer": "Receptorii maculari detectează viteza de deplasare a corpului, respectiv a capului",
+        "answers": [
+            "Crestele ampulare și cupolele gelatinoase, care se găsesc la baza canalelor semicirculare, reprezintă cel de-al doilea organ receptor al analizatorului vestibular",
+            "Cilii celulelor senzoriale din canalele semicirculare sunt excitați mecanic de deplasarea endolimfei",
+            "Receptorii maculari detectează viteza de deplasare a corpului, respectiv a capului",
+            "Din cauza inerției, endolimfa va suferi o deplasare relativă în sens opus și va înclina cupola în sensul mișcării de deplasare",
+            "Receptorii otolitici nu participă la menținerea echilibrului în condițiile accelerărilor circulare ale capului și corpului"
+        ],
+        "question": "Identificați afirmația falsă:"
+    },
+    {
+        "correct_answer": "Între tuberculii cvadrigemeni superiori",
+        "answers": [
+            "Între tuberculii cvadrigemeni inferiori",
+            "Între tuberculii cvadrigemeni superiori",
+            "Superior de chiasma optică",
+            "Superior de tuberculii cvadrigemeni superiori",
+            "Între coliculii geniculaţi superiori"
+        ],
+        "question": "Epifiza este situată:"
+    },
+    {
+        "correct_answer": "Presiunea parţială a O2 este 40mmHg;",
+        "answers": [
+            "Celulele consumă CO2 pentru producerea de energie;",
+            "Se formează bicarbonaţi din combinarea O2 cu H2O;",
+            "Presiunea parţială a O2 este 40mmHg;",
+            "Presiunea parţială a O2 este 100 mmHg;",
+            "Presiunea parţială a CO2 este de 100 mmHg."
+        ],
+        "question": "În cadrul respiraţiei la nivel celular:"
+    },
+    {
+        "correct_answer": "Se datorează ieşirii K+ din celulă",
+        "answers": [
+            "Se datorează intrării K+ in celulă",
+            "Se numeşte depolarizare",
+            "Se datorează ieşirii K+ din celulă",
+            "Se datorează ieşirii Na+ din celulă",
+            "Se datorează intrării Na+ in celulă"
+        ],
+        "question": "Panta descendentă a potenţialului de acţiune:"
+    },
+    {
+        "correct_answer": "Este legată de regiunea mediană a hipotalamusului prin sistemul port hipotalamo-hipolizar",
+        "answers": [
+            "Este reprezentat de o lamă epitelială",
+            "Constituie 50% din masa hipofizei",
+            "Este legată de hipotalamus prin tractul nervos hipotalamo-hipofizar",
+            "Reglează activitatea hipotalamusului",
+            "Este legată de regiunea mediană a hipotalamusului prin sistemul port hipotalamo-hipolizar"
+        ],
+        "question": "Lobul anterior hipofizar:"
+    },
+    {
+        "correct_answer": "Asigură desfășurarea principalelor funcții vitale",
+        "answers": [
+            "Faza dispersată este apa",
+            "Partea structurată este reprezentată de hialoplasmă",
+            "Asigură desfășurarea principalelor funcții vitale",
+            "Mediul de dispersie este reprezentat de miceliile coloidale",
+            "Partea nestructurată este reprezentată de organite specifice"
+        ],
+        "question": "Despre citoplasmă se poate afirma că:"
+    },
+    {
+        "correct_answer": "Unele pot interveni în prima fază a procesului de coagulare",
+        "answers": [
+            "Pot intra în alcătuirea unor enzime",
+            "Sunt precursori ai tuturor hormonilor",
+            "Unele pot interveni în prima fază a procesului de coagulare",
+            "Degradarea unui gram de lipide eliberează 4.1 kcal",
+            "Intră în constituţia unor citomembrane"
+        ],
+        "question": "Lipidele:"
+    },
+    {
+        "correct_answer": "Receptorii pentru cald îi depăşesc numeric pe cei pentru rece",
+        "answers": [
+            "Nervii olfactivi străbat lama ciuruită a etmoidului și se termină în bulbul olfactiv",
+            "Impulsul nervos se transmite neuronului α, ceea ce duce la contracţia fibrelor extrafusale, determinând contracţia muşchiului",
+            "Fusurile neuromusculare au inervaţie senzitivă motorie",
+            "Corpusculii Pacini se adaptează foarte rapid și recepţionează vibraţiile",
+            "Receptorii pentru cald îi depăşesc numeric pe cei pentru rece"
+        ],
+        "question": "Identificaţi afirmaţia FALSĂ:"
+    },
+    {
+        "correct_answer": "Peretele globului ocular prezintă doua tunici concentrice",
+        "answers": [
+            "Analizatorul vizual furnizează peste 90% din informatiile asupra mediului inconjurator",
+            "Globul ocular are formă aproximativ sferică",
+            "Globul ocular este situat în orbita",
+            "Peretele globului ocular prezintă doua tunici concentrice",
+            "Peretele globului ocular este format din tunici concentrice si medii refrigente"
+        ],
+        "question": "Alegeti varianta falsă:"
+    },
+    {
+        "correct_answer": "Arahnoida are o structură conjunctivă şi este separată de dura mater printr-un spaţiu care conţine lichid ceralorahidian (LCR)",
+        "answers": [
+            "Protoneurontil căii tactile grosiere protopatice se află in ganglionul spinal.",
+            "Arahnoida are o structură conjunctivă şi este separată de dura mater printr-un spaţiu care conţine lichid ceralorahidian (LCR)",
+            "Apariţia unui potenţial de acţiune într-o zonă a membranei neuronale determină apariţia unui nou potenţial de acţiune în zona vecină",
+            "Neuronii intercalari (de asociaţie) fac legătura între neuronii senzitivi și motori",
+            "Neuronii multipolari au o formă stelată, piramidală, sau piriformă şi prezintă numeroase prelungiri dendritice şi un axon"
+        ],
+        "question": "Afirmaţia FALSĂ este:"
+    },
+    {
+        "correct_answer": "Două membrane Z",
+        "answers": [
+            "Două membrane H luminoase",
+            "Două discuri clare (banda I)",
+            "O bandă Z şi o bandă H",
+            "Două membrane Z",
+            "Un filament de actină şi unul de miozină"
+        ],
+        "question": "Sarcomerul, unitatea morfofuncţională a miofibrilei, este cuprins între:"
+    },
+    {
+        "correct_answer": "420 ml/100 g țesut/min",
+        "answers": [
+            "680 ml/100 g țesut/min",
+            "420 ml/100 g țesut/min",
+            "250 ml/100 g țesut/min",
+            "1800 ml/100 g țesut/min",
+            "1200 ml/100 g țesut/min"
+        ],
+        "question": "Debitul sangvin renal este de aproximativ:"
     }
 ]
