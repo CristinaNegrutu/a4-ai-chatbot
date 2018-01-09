@@ -79,13 +79,16 @@ function send_text(text) {
 }
 
 function write_text() {
-	text_messages += "<li> User: " + text_field.value + "</li>"
-	text_box.innerHTML = text_messages;
 	
-	if(text_field.value != "")
+	
+	if(text_field.value != "") {
+		text_messages += "<li> User: " + text_field.value + "</li>"
+		text_box.innerHTML = text_messages;
+		
 		response = send_text(text_field.value);
 	
-	text_field.value = ""
+		text_field.value = ""
+	}
 }
 
 </script>
