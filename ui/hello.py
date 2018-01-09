@@ -9,8 +9,10 @@ def hello_world():
 @app.route('/', methods=['POST'])
 def my_form_post():
     text = request.form['text']
-    processed_text = text.upper()
-    return processed_text
+
+    print(text)
+    return "Bot: I don't know the answer!"
+
 
 if __name__ == '__main__':
     app.run(debug=True)

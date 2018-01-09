@@ -14,7 +14,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
+
 <div class="content">
     <div class="chat_window">
         <div class="top_menu">
@@ -27,15 +29,19 @@
             </div>
             <div class="title">Chatbot</div>
         </div>
-        <ul class="messages"></ul>
+		
+		<ul id="msg" class="messages">
+			
+		</ul>
+		
         <div class="bottom_wrapper clearfix">
             <div>
-                <form method="POST">
+                <!--<form method="POST">-->
                     <div class="message_input_wrapper">
-                        <input class="message_input" placeholder="Type your message here..." name="text">
+                        <input id="text_field" class="message_input" placeholder="Type your message here..." name="text">
                     </div>
-                    <input class="send_message" type="submit">
-                </form>
+                    <button class="send_message" onclick="write_text()"> Send message </button>
+                <!--</form>-->
             </div>
         </div>
     </div>
@@ -47,10 +53,42 @@
             </div>
         </li>
     </div>
+	<div id="ss">
+	
+	</div>
 </div>
 
-</body>
-<script>
+
+<script type="text/javascript">
+var text_field = document.getElementById("text_field");
+var text_box = document.getElementById("msg");
+var text_messages = text_box.innerHTML;
+
+function send_text(text) {
+	var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+				response_flask = this.response;
+				text_messages += "<li>" + response_flask + "</li>"
+				text_box.innerHTML = text_messages;
+            }
+        };
+        xmlhttp.open("POST", "/", true);
+        xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xmlhttp.send("text=" + text);
+}
+
+function write_text() {
+	text_messages += "<li> User: " + text_field.value + "</li>"
+	text_box.innerHTML = text_messages;
+	
+	if(text_field.value != "")
+		response = send_text(text_field.value);
+	
+	text_field.value = ""
+}
 
 </script>
+</body>
+
 </html>
