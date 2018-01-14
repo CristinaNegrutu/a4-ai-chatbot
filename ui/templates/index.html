@@ -69,31 +69,71 @@
     var text_field = document.getElementById("text_field");
     var text_box = document.getElementById("msg");
     var text_messages = text_box.innerHTML;
-
+    const QUIZ_LENGTH = 5;
     function send_text(text) {
-        if (localStorage.getItem("who_asks") == "chatbot") {
-            return;
+        if (localStorage.getItem("who_asks") === "chatbot") {
+
+            $.ajax({
+                url: "/validate",
+                method: "POST",
+                data: {
+                    "question": localStorage.getItem("current_question"),
+                    "correct_answer": localStorage.getItem("current_correct_answer"),
+                    "user_answer": text_field.value
+                },
+                dataType: "json"
+            }).done(function (data) {
+                console.log(data);
+                // data ar trebui sa fie o valoare booleana care sa zica daca raspunsul a fost corect sau gresit
+                if (data["result"] === false) {
+                    text_messages += "<li> Chatbot: " + "Raspuns gresit!" + "</li>";
+                } else {
+                    var score = parseInt(localStorage.getItem("correct_answers"))
+                    score += 1;
+                    localStorage.setItem("correct_answers", null)
+                    localStorage.setItem("correct_answers", score)
+                    text_messages += "<li> Chatbot: " + "Raspuns corect!" + "</li>";
+                }
+
+                var current_quiz_index = parseInt(localStorage.getItem("quiz_index"));
+
+                if (current_quiz_index == QUIZ_LENGTH) {
+                    text_messages += "<li> Chatbot: " + "Chestionarul s-a terminat! Ai raspuns corect la " + localStorage.getItem("correct_answers") +
+                            " intrebari din " + QUIZ_LENGTH + ". " + "<a href='/'>Incearca din nou!</a>"
+                            + "</li>";
+
+                } else {
+                    current_quiz_index += 1;
+                    localStorage.setItem("quiz_index", null);
+                    localStorage.setItem("quiz_index", current_quiz_index);
+                    generate_question();
+                }
+                text_box.innerHTML = text_messages;
+                document.getElementById("msg").scrollTop = document.getElementById("msg").scrollHeight;
+
+            });
+
+        } else {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    response_flask = this.response;
+                    text_messages += "<li>" + response_flask + "</li>"
+                    text_box.innerHTML = text_messages;
+                }
+            };
+            xmlhttp.open("POST", "/respond", true);
+            xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            xmlhttp.send("text=" + text);
+
         }
 
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                response_flask = this.response;
-                text_messages += "<li>" + response_flask + "</li>"
-                text_box.innerHTML = text_messages;
-            }
-        };
-        xmlhttp.open("POST", "/respond", true);
-        xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-        xmlhttp.send("text=" + text);
 
         document.getElementById("msg").scrollTop = document.getElementById("msg").scrollHeight;
 
     }
 
     function write_text() {
-
-
         if (text_field.value != "") {
             text_messages += "<li> User: " + text_field.value + "</li>"
             text_box.innerHTML = text_messages;
@@ -116,15 +156,34 @@
     });
 
     $(document).ready(function () {
-        console.log("Ready")
-        console.log(localStorage.getItem("who_asks"))
-        if (localStorage.getItem("who_asks") == "chatbot") {
 
-            text_messages += "<li> Chatbot: " + "Random generated question!" + "</li>";
-            text_box.innerHTML = text_messages;
+        localStorage.setItem("quiz_index", 1);
+        localStorage.setItem("correct_answers", 0);
 
-        }
+        generate_question();
+
     });
+
+    function generate_question() {
+        //if (localStorage.getItem("quiz_index") === null || localStorage.getItem("quiz_index") == QUIZ_LENGTH) {
+        //    localStorage.setItem("quiz_index", 1);
+        //}
+
+        $.ajax({
+            url: "/generate"
+        }).done(function (data) {
+
+            localStorage.setItem("current_question", data[0]["question"]);
+            localStorage.setItem("current_correct_answer", data[0]["correct_answer"]);
+            if (localStorage.getItem("who_asks") == "chatbot") {
+
+                text_messages += "<li> Chatbot: " + data[0]["question"] + "</li>";
+                text_box.innerHTML = text_messages;
+
+            }
+        });
+
+    }
 
 </script>
 </body>

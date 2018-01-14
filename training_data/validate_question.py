@@ -3,7 +3,7 @@ import random
 
 
 def retrieve_questions(limit=1):
-    with open('all_questions.json', 'r') as handle:
+    with open('all_questions.json', 'r', encoding = "ISO-8859-1") as handle:
         data = handle.read()
 
     questions = json.loads(data)
