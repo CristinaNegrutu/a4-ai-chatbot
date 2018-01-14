@@ -17,8 +17,14 @@
 
 <body>
 
+<div class="quiz_buttons" style="width: 25%; margin: 0 auto;">
+    <button type="button" id="user_asks" class="btn btn-primary btn-lg">Intreaba chatbot-ul</button>
+    <button type="button" id="chatbot_asks" class="btn btn-success btn-lg">Raspunde la intrebari</button>
+</div>
+
 <div class="content">
     <div class="chat_window">
+
         <div class="top_menu">
             <div class="buttons">
                 <div class="button close">
@@ -29,18 +35,18 @@
             </div>
             <div class="title">Tutore inteligent</div>
         </div>
-		
-		<ul id="msg" class="messages">
-			
-		</ul>
-		
+
+        <ul id="msg" class="messages">
+
+        </ul>
+
         <div class="bottom_wrapper clearfix">
             <div>
                 <!--<form method="POST">-->
-                    <div class="message_input_wrapper">
-                        <input id="text_field" class="message_input" placeholder="Type your message here..." name="text">
-                    </div>
-                    <button class="send_message" onclick="write_text()"> Send message </button>
+                <div class="message_input_wrapper">
+                    <input id="text_field" class="message_input" placeholder="Type your message here..." name="text">
+                </div>
+                <button class="send_message" onclick="write_text()"> Send message</button>
                 <!--</form>-->
             </div>
         </div>
@@ -53,24 +59,28 @@
             </div>
         </li>
     </div>
-	<div id="ss">
-	
-	</div>
+    <div id="ss">
+
+    </div>
 </div>
 
 
 <script type="text/javascript">
-var text_field = document.getElementById("text_field");
-var text_box = document.getElementById("msg");
-var text_messages = text_box.innerHTML;
+    var text_field = document.getElementById("text_field");
+    var text_box = document.getElementById("msg");
+    var text_messages = text_box.innerHTML;
 
-function send_text(text) {
-	var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
+    function send_text(text) {
+        if (localStorage.getItem("who_asks") == "chatbot") {
+            return;
+        }
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
-				response_flask = this.response;
-				text_messages += "<li>" + response_flask + "</li>"
-				text_box.innerHTML = text_messages;
+                response_flask = this.response;
+                text_messages += "<li>" + response_flask + "</li>"
+                text_box.innerHTML = text_messages;
             }
         };
         xmlhttp.open("POST", "/respond", true);
@@ -79,20 +89,42 @@ function send_text(text) {
 
         document.getElementById("msg").scrollTop = document.getElementById("msg").scrollHeight;
 
-}
+    }
 
-function write_text() {
-	
-	
-	if(text_field.value != "") {
-		text_messages += "<li> User: " + text_field.value + "</li>"
-		text_box.innerHTML = text_messages;
-		
-		response = send_text(text_field.value);
-	
-		text_field.value = ""
-	}
-}
+    function write_text() {
+
+
+        if (text_field.value != "") {
+            text_messages += "<li> User: " + text_field.value + "</li>"
+            text_box.innerHTML = text_messages;
+
+            response = send_text(text_field.value);
+
+            text_field.value = ""
+        }
+    }
+
+    $("#chatbot_asks").click(function () {
+        localStorage.setItem("who_asks", "chatbot");
+        location.reload();
+    });
+
+    $("#user_asks").click(function () {
+        localStorage.setItem("who_asks", "user");
+        location.reload();
+
+    });
+
+    $(document).ready(function () {
+        console.log("Ready")
+        console.log(localStorage.getItem("who_asks"))
+        if (localStorage.getItem("who_asks") == "chatbot") {
+
+            text_messages += "<li> Chatbot: " + "Random generated question!" + "</li>";
+            text_box.innerHTML = text_messages;
+
+        }
+    });
 
 </script>
 </body>

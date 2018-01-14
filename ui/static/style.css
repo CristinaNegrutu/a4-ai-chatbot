@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  width: 800px;
+}
+
 body {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
