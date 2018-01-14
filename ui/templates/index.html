@@ -70,6 +70,14 @@
     var text_box = document.getElementById("msg");
     var text_messages = text_box.innerHTML;
     const QUIZ_LENGTH = 5;
+
+    $('#text_field').keypress(function (e) {
+        var key = e.which;
+        if (key == 13) {
+            write_text()
+        }
+    });
+
     function send_text(text) {
         if (localStorage.getItem("who_asks") === "chatbot") {
 
@@ -138,7 +146,7 @@
             text_messages += "<li> User: " + text_field.value + "</li>"
             text_box.innerHTML = text_messages;
 
-            response = send_text(text_field.value);
+            send_text(text_field.value);
 
             text_field.value = ""
         }
@@ -156,6 +164,7 @@
     });
 
     $(document).ready(function () {
+        $("#text_field").focus();
 
         localStorage.setItem("quiz_index", 1);
         localStorage.setItem("correct_answers", 0);
