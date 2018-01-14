@@ -103,6 +103,6 @@ if __name__ == '__main__':
 
     with open('questions_with_topics_1.json', 'w') as handle:
         handle.write(
-            json.dumps(result, indent=4)
+            json.dumps(result, indent=4, ensure_ascii=False)
         )
     print('Extracted', len(result), 'questions.')

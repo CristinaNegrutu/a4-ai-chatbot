@@ -5,6 +5,7 @@ __author__ = 'Robert-Mihail UNGUREANU'
 import re
 import json
 import requests
+import unidecode
 
 # The number of questions found. Just hardcoding this >.>
 TOTAL_NUMBER_OF_QUESTIONS = 250
@@ -48,8 +49,9 @@ if __name__ == '__main__':
 
         for answer in temp_answers:
             if answer[0] == '1':
-                correct_answer = answer[1]
-            answers.append(answer[1])
+                correct_answer = answer[1].replace('\r\n', ' ')
+                correct_answer = unidecode.unidecode(correct_answer)
+            answers.append(unidecode.unidecode(answer[1]).replace('\r\n', ' '))
 
         result.append(
             {
@@ -60,8 +62,8 @@ if __name__ == '__main__':
             }
         )
 
-    with open('questions_with_topics_2.json', 'w') as handle:
+    with open('questions_with_topics_2.json', 'w', encoding='utf8') as handle:
         handle.write(
-            json.dumps(result, indent=4)
+            json.dumps(result, indent=4, ensure_ascii=False)
         )
     print('Extracted', len(result), 'questions.')
