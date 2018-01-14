@@ -12538,5 +12538,3491 @@
         "correct_answer": "Amnezie",
         "topic": "Anatomie generala",
         "question": "Pierderea memoriei poarta numele de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "au rol in respiratia celulara",
+            "nu se gasesc in neuron",
+            "nu insotesc niciodata canaliculele reticulului endoplasmatic",
+            "sunt mai numerosi in celulele varstnice",
+            "au rol in sinteza proteinelor"
+        ],
+        "correct_answer": "au rol in sinteza proteinelor",
+        "question": "Ribozomii:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "contine materialul genetic al celulei",
+            "este impermeabila",
+            "contine mitocondrii",
+            "este organizata dupa modelul mozaicului fluid",
+            "este formata din citosol"
+        ],
+        "correct_answer": "este organizata dupa modelul mozaicului fluid",
+        "question": "Membrana celulară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt reprezentate de miofibrile si neurofibrile",
+            "sunt intalnite si in citoplasma, dar si in nucleu",
+            "sunt &nbsp;reprezentate de granule de substante de rezerva, produsi de secretie",
+            "sunt definitive",
+            "formeaza canalicule"
+        ],
+        "correct_answer": "sunt &nbsp;reprezentate de granule de substante de rezerva, produsi de secretie",
+        "question": "Incluziunile citoplasmatice:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "separa structurile interne ale celulei de spatiul extracelular",
+            "este dubla, strabatuta de pori",
+            "prezinta prelungiri acoperite de plasmalema",
+            "contine glucide pe fata externa",
+            "prezinta la exterior nucleolii"
+        ],
+        "correct_answer": "este dubla, strabatuta de pori",
+        "question": "Membrana nucleară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "organite celulare comune tuturor celulelor",
+            "neurofibrile",
+            "centrozomul",
+            "carioplasma",
+            "hialoplasma"
+        ],
+        "correct_answer": "carioplasma",
+        "question": "&Icirc;n structura nucleului intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "mitocondriei",
+            "centrozomului",
+            "ribozomului",
+            "reticulului endoplasmatic",
+            "nucleolului"
+        ],
+        "correct_answer": "mitocondriei",
+        "question": "La nivel celular, fosforilarea oxidativă se realizează la nivelul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "mucoasei bucale",
+            "epidermei",
+            "mucoasei esofagiene",
+            "mucoasei faringiene",
+            "mucoasei traheei"
+        ],
+        "correct_answer": "epidermei",
+        "question": "Epiteliul cheratinizat este &icirc;nt&acirc;lnit la nivelul"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "glandele salivare",
+            "glandele sebacee",
+            "glandele lacrimale",
+            "glandele sudoripare",
+            "glandele suprarenale"
+        ],
+        "correct_answer": "glandele suprarenale",
+        "question": "Sunt glande endocrine:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "cartilajele traheale",
+            "cartilajele laringeale",
+            "cartilajele costale",
+            "discurile intervertebrale",
+            "cartilajele bronsice"
+        ],
+        "correct_answer": "discurile intervertebrale",
+        "question": "Cartilaje fibroase sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se contracta voluntar",
+            "intra in alcatuirea musculaturii scheletice",
+            "formeaza miocardul",
+            "este intalnit in musculatura organelor interne",
+            "intra in alcatuirea limbii"
+        ],
+        "correct_answer": "este intalnit in musculatura organelor interne",
+        "question": "Țesutul muscular neted:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nu au capacitatea de a se divide",
+            "iau locul neuronilor distrusi",
+            "prezinta neurofibrile",
+            "sunt celule excitabile",
+            "prezinta corpusculi Nissl"
+        ],
+        "correct_answer": "iau locul neuronilor distrusi",
+        "question": "Celulele gliale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nu produc impuls nervos",
+            "produc un impuls mai puternic decat cel produs de valoarea prag",
+            "nu produc potentiale locale",
+            "produc un impuls nervos mai mic decat valoarea prag",
+            "sunt supraliminari"
+        ],
+        "correct_answer": "nu produc impuls nervos",
+        "question": "Stimulii cu intensitate inferioară pragului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are o valoare medie de (-50) - (-70) mV",
+            "are aceeasi durata la toate tipurile de celule",
+            "are amplitudinea maxima atunci cand stimulul a atins valoarea prag",
+            "nu se propaga"
+        ],
+        "correct_answer": "are amplitudinea maxima atunci cand stimulul a atins valoarea prag",
+        "question": "Potențialul de acțiune:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este produsa de pericarion",
+            "insoteste toate prelungirile neuronale",
+            "inconjura complet axonul",
+            "este un bun izolator electric",
+            "este formata din glicoproteine"
+        ],
+        "correct_answer": "este un bun izolator electric",
+        "question": "Mielina:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are forma cilindrica, usor turtita antero-posterior",
+            "prezinta substanta cenusie la exterior si substanta alba la interior",
+            "prezinta fisura mediana posterioara, mai larga decat santul median anterior",
+            "se intinde de la orificiul occipital pana la a patra vertebra lombara",
+            "prezinta substanta alba sub forma literei H"
+        ],
+        "correct_answer": "are forma cilindrica, usor turtita antero-posterior",
+        "question": "Măduva spinării:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "conduc motilitatea involuntara",
+            "au origine corticala",
+            "au origine subcorticala",
+            "au trei neuroni",
+            "prezinta al treilea neuron in talamus"
+        ],
+        "correct_answer": "au origine corticala",
+        "question": "Fasciculele piramidale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "substanta neagra din mezencefal",
+            "nucleul rosu din mezencefal",
+            "coliculii cvadrigemeni din mezencefal",
+            "nucleii olivari din bulb",
+            "nucleii vestibulari din bulb"
+        ],
+        "correct_answer": "nucleul rosu din mezencefal",
+        "question": "Neuronii de origine pentru fasciculele rubrospinale sunt reprezentați de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleii substantei reticulate",
+            "substanta neagra",
+            "nucleul rosu",
+            "coliculii cvadrigemeni",
+            "nucleul salivator superior"
+        ],
+        "correct_answer": "nucleii substantei reticulate",
+        "question": "La nivelul bulbului rahidian se găsesc:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "deglutitie",
+            "stranut",
+            "tuse",
+            "clipire",
+            "micsorare a pupilei"
+        ],
+        "correct_answer": "clipire",
+        "question": "La nivelul punții se &icirc;nchid reflexele de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sensibilitatea olfactiva",
+            "sensibilitatea vizuala",
+            "sensibilitatea gustativa",
+            "miscari ale globului ocular",
+            "miscarile limbii"
+        ],
+        "correct_answer": "miscari ale globului ocular",
+        "question": "Nervii trohleari realizează:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "receptioneaza exclusiv modificari de presiune ",
+            "receptioneaza excitantii pentru cald",
+            "receptioneaza excitantii pentru rece",
+            "sunt stimulati de miscari slabe",
+            "sunt stimulati de atingeri puternice"
+        ],
+        "correct_answer": "receptioneaza excitantii pentru cald",
+        "question": "Corpusculii Ruffini:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "contin iodopsina",
+            "sunt responsabile de vederea nocturna",
+            "sunt responsabile de vederea diurna",
+            "sunt concentrate in special la nivelul petei galbene",
+            "sunt neuroni bipolari"
+        ],
+        "correct_answer": "sunt responsabile de vederea nocturna",
+        "question": "Celulele cu bastonașe:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reprezentati de crestele ampulare",
+            "localizati in utricula",
+            "situati in organul lui Corti",
+            "localizati in sacula",
+            "situati la baza canalelor semicirculare"
+        ],
+        "correct_answer": "situati in organul lui Corti",
+        "question": "Receptorii auditivi sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "prezinta protoneuronul in ganglionul spiral Corti",
+            "are deutoneuronul in nucleii pontini, de unde axonii formeaza lemniscul lateral",
+            "are neuronul trei in coliculii cvadrigemeni inferiori",
+            "are neuronul trei situat in talamus",
+            "este formata din patru neuroni"
+        ],
+        "correct_answer": "are neuronul trei situat in talamus",
+        "question": "Calea vestibulară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "corpusculii Ruffini",
+            "corpusculii Meissner",
+            "crestele ampulare",
+            "situati in organul lui Corti",
+            "localizati in utricula"
+        ],
+        "correct_answer": "corpusculii Ruffini",
+        "question": "Receptorii kinestezici sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "a stimula melanocitele sa sintetizeze melanina",
+            "a creste excretia de azot",
+            "a activa mecanismele hepatice care inlatura colesterolul din circulatie",
+            "a creste absorbtia intestinala de glucoza",
+            "a controla cresterea si dezvoltarea organismului"
+        ],
+        "correct_answer": "a stimula melanocitele sa sintetizeze melanina",
+        "question": "Hormonii tiroidieni nu au funcția de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nanism",
+            "mixedem",
+            "exoftalmie",
+            "deficit intelectual",
+            "caderea parului"
+        ],
+        "correct_answer": "exoftalmie",
+        "question": "Hipersecreția de hormoni tiroidieni determină:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "hiperglicemie",
+            "tremuraturi",
+            "transpiratii",
+            "tahicardie",
+            "oligurie"
+        ],
+        "correct_answer": "hiperglicemie",
+        "question": "Hiposecreția de insulină determină:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "ACTH",
+            "cresterea presiunii osmotice",
+            "cresterea volumului sangvin"
+        ],
+        "correct_answer": "ACTH",
+        "question": "Reglarea secreției de mineralocorticoizi se face prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "hipoglicemiant",
+            "hipolipemiant",
+            "de a scadea catabolismul proteic",
+            "de a creste filtrarea glomerulara",
+            "de a scadea eliminarea excesului de apa"
+        ],
+        "correct_answer": "de a creste filtrarea glomerulara",
+        "question": "Cortizolul are rol:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "osificarea vertebrelor",
+            "formarea oaselor boltii craniene",
+            "formarea corpului claviculei",
+            "reparatia osoasa in caz de fracturi",
+            "cresterea in grosime a oaselor lungi pe seama periostului"
+        ],
+        "correct_answer": "osificarea vertebrelor",
+        "question": "Osificarea de cartilaj caracterizează:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "rotula",
+            "temporal",
+            "frontal",
+            "stern",
+            "parietal"
+        ],
+        "correct_answer": "rotula",
+        "question": "Nu&nbsp;este os lat:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "muschiul croitor",
+            "muschiul oblic extern",
+            "muschiul aductor",
+            "sternocleidomastoidian",
+            "platisma"
+        ],
+        "correct_answer": "muschiul oblic extern",
+        "question": "Este mușchi al abdomenului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "a se intinde pasiv sub actiunea unei forte exterioare",
+            "a se deforma sub actiunea unei forte externe",
+            "a raspunde la actiunea unui stimul",
+            "a dezvolta o tensiune asupra punctelor sale de origine si insertie",
+            "a reveni la forma initiala, dupa ce forta a incetat"
+        ],
+        "correct_answer": "a raspunde la actiunea unui stimul",
+        "question": "Excitabilitatea reprezintă proprietatea mușchiului de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "o fata posterioara acoperita cvasicomplet de ficat",
+            "o fata anterioara care vine in contact cu splina si pancreasul",
+            "o portiune verticala ce cuprinde antrul si canalul piloric",
+            "o portiune orizontala in care se afla fornixul",
+            "orificiul cardia prin care comunica cu esofagul si pilorul care asigura legatura cu duodenul"
+        ],
+        "correct_answer": "orificiul cardia prin care comunica cu esofagul si pilorul care asigura legatura cu duodenul",
+        "question": "Stomacul prezintă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "ptialina",
+            "electroliti",
+            "pigmenti proveniti din degradarea hematiilor",
+            "colesterol",
+            "saruri biliare"
+        ],
+        "correct_answer": "ptialina",
+        "question": "Bila nu&nbsp;conține:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "au in citoplasma granulatii ce se coloreaza in roz cu coloranti neutri",
+            "au in citoplasma granulatii ce se coloreaza in albastru cu coloranti bazici",
+            "nu au nucleu, fiind fragmente de celule",
+            "intervin in coagularea sangelui",
+            "sunt in numar mare in bolile parazitare si alergice"
+        ],
+        "correct_answer": "sunt in numar mare in bolile parazitare si alergice",
+        "question": "Eozinofilele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "incepe cu sistola atriala, care dureaza 0,7 secunde",
+            "cuprinde diastola atriala, care dureaza 0,1 secunde",
+            "cuprinde sistola ventriculara, care dureaza 0,3 secunde",
+            "include diastola ventriculara, care dureaza 0,1 secunde",
+            "cuprinde o sistola si o diastola si dureaza 0,3 secunde"
+        ],
+        "correct_answer": "cuprinde sistola ventriculara, care dureaza 0,3 secunde",
+        "question": "Ciclul cardiac:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "porneste din ventriculul sting cu sange neoxigenat",
+            "porneste din ventriculul drept cu sange oxigenat",
+            "se curbeaza spre stanga si are un traseu descendent pana la L4 unde se bifurca",
+            "se deschide in atriul drept",
+            "se ramifica in doua artere pulmonare"
+        ],
+        "correct_answer": "se ramifica in doua artere pulmonare",
+        "question": "Trunchiul arterei pulmonare:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "comunica posterior cu exteriorul prin nari",
+            "comunica anterior cu faringele prin coane",
+            "sunt captusite de mucoasa nazala cu functie olfactiva (la partea inferioara) si respiratorie (la partea superioara)",
+            "prezinta cornetele superioare, mijlocii si inferioare",
+            "sunt cai respiratorii intrapulmonare"
+        ],
+        "correct_answer": "prezinta cornetele superioare, mijlocii si inferioare",
+        "question": "Fosele nazale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "faza de contractie are durata medie de 0,04 s",
+            "faza de relaxare este de 0,05 s",
+            "secusele musculare se produc foarte rar in organism",
+            "faza de latenta este necesara depolarizarii sarcolemei si obtinerii de energie din ATP",
+            "durata totala unei secuse este de o secunda"
+        ],
+        "correct_answer": "durata totala unei secuse este de o secunda",
+        "question": "Una dintre afirmațiile următoare referitoare la secusă NU este adevărată:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "muschii sternocleidomastoidieni",
+            "muschii scaleni",
+            "muschii pectorali",
+            "pielosul gatului",
+            "muschii trapezi"
+        ],
+        "correct_answer": "pielosul gatului",
+        "question": "La inspirația forțată nu&nbsp;participă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "conduce urina primara de la tubul contort distal la cel proximal",
+            "are un ram descendent mai subtire si unul ascendent mai gros",
+            "reprezinta segmentul distal al tubului urinifer",
+            "prezinta celule cu microvili",
+            "este o portiune in forma de \"U\", situata in medulara"
+        ],
+        "correct_answer": "este o portiune in forma de \"U\", situata in medulara",
+        "question": "Ansa Henle:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situat in septul interatrial",
+            "este situat in atriul stang",
+            "imprima un ritm de 40 batai/minut",
+            "determina o frecventa de 20-25 contractii/ minut",
+            "determina o frecventa de 70-80 contractii/ minut"
+        ],
+        "correct_answer": "determina o frecventa de 70-80 contractii/ minut",
+        "question": "Nodulul sinoatrial:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "1-2 minute",
+            "10-12 minute",
+            "40 de minute",
+            "4-5 minute",
+            "15-20 minute"
+        ],
+        "correct_answer": "4-5 minute",
+        "question": "Toată plasma trece prin rinichi &icirc;n:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "au numai 2 neuroni",
+            "au timp de latenta foarte scurt",
+            "sunt strict limitate, nu iradiaza",
+            "includ numai neuroni senzitivi si motori",
+            "includ neuroni senzitivi, intercalari si motori"
+        ],
+        "correct_answer": "includ neuroni senzitivi, intercalari si motori",
+        "question": "Reflexele polisinaptice:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "conduce informatii termice si dureroase",
+            "conduce informatii tactile grosiere",
+            "conduce informatii tactile fine si vibratii",
+            "conduce motilitatea voluntara a musculaturii scheletice contralaterale",
+            "conduce motilitatea voluntara a muschilor gatului"
+        ],
+        "correct_answer": "conduce informatii termice si dureroase",
+        "question": "Fasciculul spinotalamic lateral:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "conduce informatii termice si dureroase",
+            "conduce informatii tactile fine si vibratii",
+            "conduce informatii tactile grosiere si de presiune usoara",
+            "conduce motilitatea voluntara a musculaturii scheletice contralaterale",
+            "conduce influxul nervos motor voluntar la nucleii motori din trunchiul cerebral"
+        ],
+        "correct_answer": "conduce influxul nervos motor voluntar la nucleii motori din trunchiul cerebral",
+        "question": "Fasciculul corticonuclear:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "coordoneaza reflexele posturale de raspuns la stimuli vizuali si auditivi",
+            "coordoneaza miscarile fine",
+            "conduce informatii tactile fine",
+            "conduce informatii termice",
+            "conduce informatii tactile grosiere"
+        ],
+        "correct_answer": "coordoneaza reflexele posturale de raspuns la stimuli vizuali si auditivi",
+        "question": "Fasciculul tecto-spinal:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul reticulo-spinal",
+            "fasciculul olivo-spinal",
+            "fasciculul corticonuclear",
+            "fasciculul cortico-pontocerebelos",
+            "fasciculul rubro-spinal"
+        ],
+        "correct_answer": "fasciculul corticonuclear",
+        "question": "Nu&nbsp;face parte din căile extrapiramidale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reflexele statice si statochinetice",
+            "reflexele salivare",
+            "reflexele respiratorii",
+            "reflexele cardiovasculare",
+            "reflexele de deglutitie, tuse"
+        ],
+        "correct_answer": "reflexele statice si statochinetice",
+        "question": "La nivelul mezencefalului se &icirc;nchid:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "leaga nucleii vestibulari de nucleii nervilor craniei III, IV, VI",
+            "face legatura intre nucleul rosu, nucleii olivari si cerebel",
+            "leaga nucleii hipotalamici de nucleii vegetativi parasimpatici ai nervilor cranieni III, VII, IX si X",
+            "face parte din caile piramidale",
+            "face parte din caile extrapiramidale"
+        ],
+        "correct_answer": "leaga nucleii vestibulari de nucleii nervilor craniei III, IV, VI",
+        "question": "Fasciculul longitudinal medial:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul cortico-striatomezencefalic",
+            "fasciculul cortico-olivar",
+            "fasciculul cortico-nigric",
+            "fasciculul corticonuclear",
+            "fasciculul cortico-striat"
+        ],
+        "correct_answer": "fasciculul corticonuclear",
+        "question": "Aparține căilor piramidale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "C8-T2",
+            "T3-T5",
+            "T6-L2",
+            "T1-L2",
+            "T1-T3"
+        ],
+        "correct_answer": "C8-T2",
+        "question": "Reflexul vegetativ simpatic pupilodilatator are centrii nervoși &icirc;n:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se transmit ereditar la descendenti",
+            "se manifesta la toti indivizii din aceeasi specie",
+            "dureaza toata viata",
+            "sunt independente de experientele personale",
+            "sunt caracteristice indivizilor, nu speciei"
+        ],
+        "correct_answer": "sunt caracteristice indivizilor, nu speciei",
+        "question": "Reflexele condiționate:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "in muschi",
+            "in peretii organelor interne",
+            "in periost",
+            "spre periferia organismului",
+            "in tendoane"
+        ],
+        "correct_answer": "spre periferia organismului",
+        "question": "Exteroceptorii sunt localizați:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "receptorii olfactivi",
+            "receptorii tactili",
+            "receptorii durerosi",
+            "receptorii vestibulari",
+            "receptorii auditivi"
+        ],
+        "correct_answer": "receptorii olfactivi",
+        "question": "Chemoreceptorii sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "in profunzimea scizurii Sylvius, in lobul temporal",
+            "in lobul parietal",
+            "in lobul frontal",
+            "in lobul occipital",
+            "de o parte si de alta a scizurii calcarine"
+        ],
+        "correct_answer": "in profunzimea scizurii Sylvius, in lobul temporal",
+        "question": "Aria auditivă primară este localizată:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "coliculii cvadrigemeni din mezencefal",
+            "nucleii rosii din pedunculii cerebrali",
+            "substanta neagra din pedunculii cerebrali",
+            "nucleii vestibulari din bulbul rahidian",
+            "olivele bulbare din bulbul rahidian"
+        ],
+        "correct_answer": "coliculii cvadrigemeni din mezencefal",
+        "question": "Fasciculele tectospinale au originea &icirc;n:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este transparenta, avasculara",
+            "este opaca, alb-sidefie",
+            "este o membrana pigmentata, vasculara",
+            "prezinta un orificiu central - pupila",
+            "secreta umoarea apoasa si umoarea sticloasa"
+        ],
+        "correct_answer": "este opaca, alb-sidefie",
+        "question": "Sclerotica:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt in numar de 125 - 130 milioane",
+            "contin rodopsina",
+            "au prag de sensibilitate scazut",
+            "sunt receptori pentru vederea crepusculara",
+            "sunt receptori pentru vederea diurna"
+        ],
+        "correct_answer": "sunt receptori pentru vederea diurna",
+        "question": "Celulele cu conuri:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "lobul occipital, pe marginile scizurii calcarine",
+            "lobul parietal",
+            "lobul frontal",
+            "lobul temporal",
+            "lobul prefrontal"
+        ],
+        "correct_answer": "lobul occipital, pe marginile scizurii calcarine",
+        "question": "Segmentul central al analizatorului vizual este localizat &icirc;n:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reprezinta 15 - 25% din masa hipofizei",
+            "reprezinta 2% din masa hipofizei",
+            "are forma unei lame epiteliale",
+            "produce hormonul melanocitostimulator",
+            "produce hormoni glandulotropi"
+        ],
+        "correct_answer": "produce hormoni glandulotropi",
+        "question": "Adenohipofiza:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "cortizolul",
+            "corticosteronul",
+            "aldosteronul",
+            "cortizonul",
+            "prednisolul"
+        ],
+        "correct_answer": "aldosteronul",
+        "question": "Nu&nbsp;este hormon glucocorticoid:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "somatotrop",
+            "melanocitostimulator",
+            "tirotrop",
+            "calcitonina",
+            "ocitocina"
+        ],
+        "correct_answer": "melanocitostimulator",
+        "question": "Lobul intermediar hipofizar produce hormonul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "hormonul tirotrop",
+            "tiroxina",
+            "ocitocina",
+            "prolactina",
+            "hormonul somatotrop"
+        ],
+        "correct_answer": "tiroxina",
+        "question": "Tiroida secretă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "celulele alfa ale pancreasului",
+            "celulele beta ale pancreasului",
+            "celulele delta ale pancreasului",
+            "tiroida",
+            "corticosuprarenala"
+        ],
+        "correct_answer": "celulele alfa ale pancreasului",
+        "question": "Glucagonul este produs de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situata la baza creierului, in saua turceasca a osului sfenoid",
+            "este situata in partea anterioara a gatului, intr-o loja fibroasa",
+            "are forma si marimea unui bob de fasole",
+            "are forma de coif",
+            "are trei lobi: anterior, intermediar si posterior"
+        ],
+        "correct_answer": "este situata in partea anterioara a gatului, intr-o loja fibroasa",
+        "question": "Tiroida:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleii hipotalamici anteriori",
+            "adenohipofiza",
+            "lobul intermediar al hipofizei",
+            "medulosuprarenala",
+            "corticosuprarenala"
+        ],
+        "correct_answer": "nucleii hipotalamici anteriori",
+        "question": "Vasopresina este produsă de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situata retrosternal, in mediastin",
+            "este localizata in partea posterioara a diencefalului intre coliculii cvadrigemeni superiori",
+            "este situata pe fata posterioara a tiroidei",
+            "este legata de hipotalamus prin tija pituitara",
+            "este situata in saua turceasca a osului sfenoid"
+        ],
+        "correct_answer": "este localizata in partea posterioara a diencefalului intre coliculii cvadrigemeni superiori",
+        "question": "Epifiza:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situat retrosternal",
+            "este localizat in partea posterioara a diencefalului, intre coliculii cvadrigemeni superiori",
+            "este situat in saua turceasca a osului sfenoid",
+            "este situat pe fata posterioara a tiroidei",
+            "produce melatonina"
+        ],
+        "correct_answer": "este situat retrosternal",
+        "question": "Timusul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "determina miscari ale globului ocular",
+            "determina miscari ale muschilor masticatori",
+            "produc contractia musculaturii mimicii",
+            "determina miscarile limbii",
+            "sunt senzoriali"
+        ],
+        "correct_answer": "determina miscari ale globului ocular",
+        "question": "Nervii abducens:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "asigura sensibilitatea gustativa",
+            "sunt motori",
+            "determina miscari ale globului ocular",
+            "determina miscarile limbii",
+            "determina miscari ale muschilor masticatori"
+        ],
+        "correct_answer": "determina miscari ale muschilor masticatori",
+        "question": "Nervii trigemeni:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt motori",
+            "contin fibre senzoriale vizuale",
+            "determina miscari ale globului ocular",
+            "determina reflexul pupilar fotomotor",
+            "au fibre visceromotorii"
+        ],
+        "correct_answer": "contin fibre senzoriale vizuale",
+        "question": "Nervii optici:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "perechea III",
+            "perechea IV",
+            "perechea II",
+            "perechea XI",
+            "perechea XII"
+        ],
+        "correct_answer": "perechea II",
+        "question": "Sunt nervi cranieni senzoriali:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "accesori",
+            "trigemeni",
+            "hipoglosi",
+            "trohleari",
+            "vagi"
+        ],
+        "correct_answer": "hipoglosi",
+        "question": "Nervii care determină mișcările limbii sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "etmoid",
+            "sfenoid",
+            "frontal",
+            "occipital",
+            "vomer"
+        ],
+        "correct_answer": "vomer",
+        "question": "Nu&nbsp;face parte din neurocraniu osul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "maxilare",
+            "nazale",
+            "palatine",
+            "temporale",
+            "zigomatice"
+        ],
+        "correct_answer": "temporale",
+        "question": "Nu&nbsp;fac parte din viscerocraniu oasele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "12 vertebre",
+            "7 vertebre",
+            "5 vertebre",
+            "4 vertebre",
+            "4 - 5 vertebre"
+        ],
+        "correct_answer": "7 vertebre",
+        "question": "Nu&nbsp;fac parte din viscerocraniu oasele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "osul frontal",
+            "osul sfenoid",
+            "osul etmoid",
+            "mandibula",
+            "osul occipital"
+        ],
+        "correct_answer": "mandibula",
+        "question": "Este os al viscerocraniului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "7 tarsiene, 5 metatarsiene",
+            "8 carpiene, 5 metacarpiene",
+            "7 carpiene, 7 metacarpiene",
+            "7 tarsiene, 7 metatarsiene",
+            "8 carpiene, 5 metacarpiene"
+        ],
+        "correct_answer": "7 tarsiene, 5 metatarsiene",
+        "question": "Scheletul piciorului cuprinde:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "humerus",
+            "cubitus",
+            "tibia",
+            "fibula",
+            "clavicula"
+        ],
+        "correct_answer": "cubitus",
+        "question": "Din scheletul antebrațului face parte osul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se articuleaza posterior intre ele formand simfiza pubiana",
+            "se articuleaza anterior cu osul sacrum",
+            "sunt oase lungi",
+            "provin din sudarea oaselor: ilium, ischium si pubis",
+            "fac parte din centura scapulara"
+        ],
+        "correct_answer": "provin din sudarea oaselor: ilium, ischium si pubis",
+        "question": "Oasele coxale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este os lung",
+            "se articuleaza cu 12 perechi de coaste",
+            "este format din corp, manubriu si apendicele xifoid",
+            "face parte din scheletul membrelor",
+            "este os scurt"
+        ],
+        "correct_answer": "este format din corp, manubriu si apendicele xifoid",
+        "question": "Sternul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "frontal",
+            "zigomatic",
+            "buccinator",
+            "temporal",
+            "trapez"
+        ],
+        "correct_answer": "trapez",
+        "question": "Nu&nbsp;este mușchi al capului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "muschii pectorali",
+            "marele dintat",
+            "intercostali externi",
+            "diafragmul",
+            "romboid"
+        ],
+        "correct_answer": "romboid",
+        "question": "&Icirc;n grupa mușchilor anterolaterali ai toracelui nu&nbsp;intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sternocleidomastoidian",
+            "trapez",
+            "romboid",
+            "psoas",
+            "deltoid"
+        ],
+        "correct_answer": "sternocleidomastoidian",
+        "question": "Este mușchi al g&acirc;tului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "croitor",
+            "fesierii",
+            "cvadriceps femural",
+            "triceps sural",
+            "deltoid"
+        ],
+        "correct_answer": "deltoid",
+        "question": "&Icirc;n grupa mușchilor membrelor superioare intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "deltoid",
+            "biceps",
+            "triceps",
+            "flexori ai mainii",
+            "croitor"
+        ],
+        "correct_answer": "croitor",
+        "question": "&Icirc;n grupa mușchilor membrelor inferioare intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "pectoralii",
+            "intercostalii externi",
+            "diafragmul",
+            "trapezi",
+            "psoas"
+        ],
+        "correct_answer": "trapezi",
+        "question": "&Icirc;n grupa mușchilor spatelui și cefei intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "muschiul se scurteaza si se produce miscarea",
+            "tensiunea ramane aceeasi",
+            "realizarea lucrului mecanic",
+            "sunt caracteristice muschilor membrelor",
+            "muschiul nu isi modifica dimensiunile"
+        ],
+        "correct_answer": "muschiul nu isi modifica dimensiunile",
+        "question": "Contracțiile izometrice se caracterizează prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "muschiul nu isi modifica dimensiunile",
+            "energia este transformata in caldura",
+            "nu realizeaza lucru mecanic",
+            "tensiunea ramane aceeasi",
+            "sunt caracteristice musculaturii posturale"
+        ],
+        "correct_answer": "tensiunea ramane aceeasi",
+        "question": "Contracțiile izotonice se caracterizează prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa mai mare",
+            "graficul inregistreaza un platou regulat",
+            "reprezinta starea de contractie permanenta, dar partiala a musculaturii",
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa joasa",
+            "este o contractie simpla"
+        ],
+        "correct_answer": "se obtine prin aplicarea repetitiva a stimulilor cu frecventa joasa",
+        "question": "Tetanosul incomplet:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa mai mare",
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa joasa",
+            "reprezinta starea de contractie permanenta, dar partiala a musculaturii",
+            "este o contractie simpla",
+            "graficul inregistreaza un platou dintat"
+        ],
+        "correct_answer": "se obtine prin aplicarea repetitiva a stimulilor cu frecventa mai mare",
+        "question": "Tetanosul complet:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa joasa",
+            "se obtine prin aplicarea repetitiva a stimulilor cu frecventa mai mare",
+            "reprezinta starea de contractie permanenta, dar partiala a musculaturii",
+            "se obtine daca se aplica muschiului o excitatie unica, de scurta durata",
+            "este o contractie fuzionata"
+        ],
+        "correct_answer": "se obtine daca se aplica muschiului o excitatie unica, de scurta durata",
+        "question": "Secusa musculară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "suturile oaselor craniene",
+            "articulatiile dintre discurile vertebrale",
+            "articulatia cotului",
+            "articulatia genunchiului",
+            "articulatia scapulo-humerala"
+        ],
+        "correct_answer": "suturile oaselor craniene",
+        "question": "Sindesmoze sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "articulatii in care intre cele doua oase se interpune tesut fibros",
+            "reprezentate de simfiza pubiana",
+            "articulatiile dintre discurile vertebrale",
+            "articulatii cu grad variat de mobilitate",
+            "suturile oaselor craniene"
+        ],
+        "correct_answer": "reprezentate de simfiza pubiana",
+        "question": "Sincondrozele sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "articulatii in care intre cele doua oase se interpune tesut fibros",
+            "reprezentate de simfiza pubiana",
+            "articulatii in care intre cele doua oase se interpune o lama de tesut cartilaginos",
+            "articulatii cu grad variat de mobilitate",
+            "suturile oaselor craniene"
+        ],
+        "correct_answer": "articulatii cu grad variat de mobilitate",
+        "question": "Diartrozele sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "suturile oaselor craniene",
+            "articulatiile dintre discurile vertebrale",
+            "articulatii cu mare mobilitate",
+            "reprezentate de simfiza pubiana",
+            "articulatii imobile"
+        ],
+        "correct_answer": "articulatiile dintre discurile vertebrale",
+        "question": "Amfiartrozele sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situat posterior fata de trahee",
+            "comunica cu esofagul prin orificiul cardia",
+            "comunica lateral cu esofagul",
+            "comunica lateral cu urechea medie",
+            "comunica posterior cu fosele nazale"
+        ],
+        "correct_answer": "comunica lateral cu urechea medie",
+        "question": "Faringele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "comunica cu esofagul prin orificiul pilor",
+            "comunica cu duodenul prin orificiul cardia",
+            "prezinta enterocite cu microvili",
+            "este format din fornix, corp, antru, canalul piloric",
+            "cuprinde in concavitatea sa capul pancreasului"
+        ],
+        "correct_answer": "este format din fornix, corp, antru, canalul piloric",
+        "question": "Stomacul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "hepatocite",
+            "capilare sanguine",
+            "canalicule biliare",
+            "tesut conjunctiv",
+            "enterocite"
+        ],
+        "correct_answer": "enterocite",
+        "question": "Nu intră &icirc;n alcătuirea lobulului hepatic:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "o fata posterioara, acoperita cvasicomplet de ficat",
+            "o fata anterioara, in contact cu splina si pancreasul",
+            "o portiune orizontala cu fornixul",
+            "o portiune verticala cu antrul",
+            "o margine dreapta (curbura mica) si o margine stanga (curbura mare)"
+        ],
+        "correct_answer": "o margine dreapta (curbura mica) si o margine stanga (curbura mare)",
+        "question": "Stomacul prezintă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "digestie chimica",
+            "digestie mecanica",
+            "absorbtie: alcool, apa, cloruri",
+            "deglutitie si propulsia bolului alimentar in stomac",
+            "absorbtie: apa, electroliti, vitamine"
+        ],
+        "correct_answer": "deglutitie si propulsia bolului alimentar in stomac",
+        "question": "Funcțiile faringelui și esofagului sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "actioneaza asupra cazeinogenului transformandu-l in paracazeina",
+            "degradeaza pipidele complexe din lapte si frisca pana la glicerol si acizi grasi",
+            "degradeaza proteinele pana la aminoacizi",
+            "degradeaza proteinele pana la albumoze si peptone",
+            "scindeaza dizaharidele pana la monozaharide"
+        ],
+        "correct_answer": "degradeaza proteinele pana la albumoze si peptone",
+        "question": "Pepsina:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "pepsina",
+            "colesterol",
+            "labferment",
+            "lipaza",
+            "maltaza"
+        ],
+        "correct_answer": "colesterol",
+        "question": "Bila conține:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "glucoza",
+            "galactoza",
+            "vitaminele hidrosolubile"
+        ],
+        "correct_answer": "colesterol",
+        "question": "Absorbție pasivă la nivelul intestinului subțire prezintă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "vitaminele liposolubile",
+            "glucoza",
+            "apa",
+            "unele pentoze&nbsp;",
+            "acizii grasi si glicerina"
+        ],
+        "correct_answer": "glucoza",
+        "question": "Absorbție activă la nivelul intestinului subțire prezintă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "usor acid&nbsp; (5,6 - 7)",
+            "puternic acid (1,5 - 2,5)",
+            "alcalin (7- 8)",
+            "neutru",
+            "alcalin (8,3)"
+        ],
+        "correct_answer": "puternic acid (1,5 - 2,5)",
+        "question": "Sucul gastric are un pH:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "amilaza pancreatica",
+            "tripsina",
+            "chimotripsina",
+            "carboxipeptidaza",
+            "elastaza"
+        ],
+        "correct_answer": "amilaza pancreatica",
+        "question": "Enzimă glicolitică din sucul pancreatic:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "pepsina",
+            "gelatinaza",
+            "labfermentul",
+            "lipaza",
+            "ptialina"
+        ],
+        "correct_answer": "ptialina",
+        "question": "Enzimă glicolitică din salivă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "maltaza",
+            "tripsina",
+            "chimotripsina",
+            "lipaza",
+            "carboxipeptidaza"
+        ],
+        "correct_answer": "maltaza",
+        "question": "Enzimă glicolitică din sucul intestinal:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "un lichid incolor sau usor opalescent",
+            "un lichid incolor cu pH puternic acid",
+            "un lichid galben sau verde cu pH alcalin (7 - 8)",
+            "un lichid incolor cu pH alcalin (8,3)",
+            "un lichid galben sau verde cu pH puternic acid (5,6 - 7)"
+        ],
+        "correct_answer": "un lichid galben sau verde cu pH alcalin (7 - 8)",
+        "question": "Bila este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "artera hepatica",
+            "vena porta",
+            "artera veziculara",
+            "vena splenica",
+            "artera splenica"
+        ],
+        "correct_answer": "vena porta",
+        "question": "Vascularizația funcțională a ficatului este asigurată de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este un act reflex complex, vegetativ conditionat de la nastere pana la 14-15 luni",
+            "este un act reflex complex, vegetativ-somatic neconditionat de la 14-15 luni pe toata perioada vietii",
+            "este coordonata de centrii nervosi medulari S2 - S4",
+            "realizeaza eliminarea bolului alimentar",
+            "este coordonata de centrii nervosi medulari L1- L2"
+        ],
+        "correct_answer": "este coordonata de centrii nervosi medulari S2 - S4",
+        "question": "Defecația:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [],
+        "correct_answer": "este coordonata de centrii nervosi medulari S2 - S4",
+        "question": "Volumul inspirator de rezervă este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este situat in atriul stang",
+            "are frecventa descarcarilor de 25/minut",
+            "are fecventa descarcarilor de 40/minut",
+            "formeaza reteaua Purkinje",
+            "se afla in peretele atriului drept"
+        ],
+        "correct_answer": "se afla in peretele atriului drept",
+        "question": "Nodulul sinoatrial:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are frecventa descarcarilor de 25/minut",
+            "are frecventa descarcarilor de 70 - 80/minut",
+            "este situat in atriul drept",
+            "formeaza reteaua Purkinje",
+            "se afla in partea inferioara a septului interatrial"
+        ],
+        "correct_answer": "se afla in partea inferioara a septului interatrial",
+        "question": "Nodulul atrioventricular:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "creste in timpul diastolei",
+            "scade in timpul sistolei",
+            "este maxima in diastola (120 - 140 mm Hg)",
+            "este minima in sistola (70 - 80 mm Hg)",
+            "este presiunea cu care sangele circula in artere"
+        ],
+        "correct_answer": "este presiunea cu care sangele circula in artere",
+        "question": "Presiunea arterială:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "0,3 secunde",
+            "0,7 secunde",
+            "0,5 secunde",
+            "0,1 secunde",
+            "0,4 secunde"
+        ],
+        "correct_answer": "0,3 secunde",
+        "question": "Sistola ventriculară durează:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "0,3 secunde",
+            "0,7 secunde",
+            "0,5 secunde",
+            "0,1 secunde",
+            "0,4 secunde"
+        ],
+        "correct_answer": "0,5 secunde",
+        "question": "Diastola ventriculară durează:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "include aorta cu ramurile ei",
+            "include cele 2 vene pulmonare care transporta sangele oxigenat la inima"
+        ],
+        "correct_answer": "0,5 secunde",
+        "question": "Circulația pulmonară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "include arterele pulmonare care transporta sange neoxigenat la plamani",
+            "include cele 2 vene pulmonare care transporta sangele oxigenat la inima",
+            "include aorta cu ramurile ei"
+        ],
+        "correct_answer": "include aorta cu ramurile ei",
+        "question": "Circulația sistemică:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este un proces pasiv",
+            "se realizeaza prin relaxarea musculaturii respiratorii",
+            "creste presiunea aerului din plamani cu 2-3 mm Hg",
+            "are ca efect dilatarea plamanilor",
+            "scade volumul cutiei toracice"
+        ],
+        "correct_answer": "are ca efect dilatarea plamanilor",
+        "question": "Inspirația:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "glucoza",
+            "proteine",
+            "creatinina",
+            "amoniac"
+        ],
+        "correct_answer": "glucoza",
+        "question": "&Icirc;n formarea urinei are loc reabsorbția selectivă de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "creatinina",
+            "apa",
+            "glucoza",
+            "aminoacizi",
+            "saruri"
+        ],
+        "correct_answer": "creatinina",
+        "question": "&Icirc;n formarea urinei are loc secreția tubulară de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "apa",
+            "glucoza",
+            "fosfatii anorganici"
+        ],
+        "correct_answer": "apa",
+        "question": "Reabsorbția tubulară se face prin transport pasiv pentru:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este un proces activ",
+            "consta in cresterea volumului cutiei toracice",
+            "se realizeaza prin contractia muschilor intercostali externi si diafragmei",
+            "creste presiunea aerului din plamani",
+            "permite aerului sa intre in plamani"
+        ],
+        "correct_answer": "creste presiunea aerului din plamani",
+        "question": "Expirația:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este un tub cilindric de 12 cm",
+            "reprezinta locul de intretaiere a caii digestive cu cea respiratorie",
+            "este mentinut deschis de 16-10 inele cartilaginoase incomplete",
+            "comunica cu esofagul prin intermediul glotei",
+            "are forma de piramida triangulara, cu baza mare indreptata in sus"
+        ],
+        "correct_answer": "are forma de piramida triangulara, cu baza mare indreptata in sus",
+        "question": "Laringele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt trei in plaminul stang",
+            "sunt doi in plamanul drept",
+            "sunt impartiti in lobuli (700 in plamanul drept, 800 in cel stang)",
+            "ai plamanului drept sunt: superior, mijlociu si inferior",
+            "ai plamanului stang sunt: superior, mijlociu si inferior"
+        ],
+        "correct_answer": "ai plamanului drept sunt: superior, mijlociu si inferior",
+        "question": "Lobii pulmonari:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt inveliti de pleura constituita din trei foite",
+            "prezinta doi lobi in plamanul drept si trei in cel stang",
+            "au consistenta buretoasa",
+            "prezinta doua bronhii bronhii lobare in plamanul drept",
+            "prezinta trei bronhii lobare in plamanul stang"
+        ],
+        "correct_answer": "au consistenta buretoasa",
+        "question": "Plăm&acirc;nii:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "mai putin intens",
+            "mai scurt",
+            "mai acut",
+            "determinat de inchiderea valvulelor atrioventriculare",
+            "este determinat de inchiderea valvulelor semilunare"
+        ],
+        "correct_answer": "determinat de inchiderea valvulelor atrioventriculare",
+        "question": "Zgomotul sistolic este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "un sunet grav",
+            "un sunet prelung",
+            "este mai intens",
+            "determinat de inchiderea valvulelor atrioventriculare",
+            "este determinat de inchiderea valvulelor semilunare"
+        ],
+        "correct_answer": "este determinat de inchiderea valvulelor semilunare",
+        "question": "Sunetul diastolic este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "creste cu scaderea volumului lichidelor extracelulare",
+            "scade cu scaderea volumului lichidelor extracelulare",
+            "scaderea volemiei este asociata cu hipertensiunea",
+            "cresterea volemiei este asociata cu hipotensiunea",
+            "nu este influentata de volumului lichidelor extracelulare"
+        ],
+        "correct_answer": "scade cu scaderea volumului lichidelor extracelulare",
+        "question": "Volemia:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "creste cu varsta",
+            "contribuie la amortizarea tensiunii arteriale in sistola",
+            "scaderea elasticitatii duce la usurarea efortului cordului",
+            "face ca in circulatie arterele mari de tip elastic sa aibe un rol activ",
+            "nu influenteaza circulatia sangelui"
+        ],
+        "correct_answer": "contribuie la amortizarea tensiunii arteriale in sistola",
+        "question": "Elasticitatea arterelor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "scade in artere pe masura ce ne indepartam de inima",
+            "in aorta este de 0,5 mm/s",
+            "in capilare este de 500 mm/s",
+            "este mai mare in capilare decat in aorta, datorita cresterii suprafetei de sectiune",
+            "in aorta este de 100 mm/s"
+        ],
+        "correct_answer": "scade in artere pe masura ce ne indepartam de inima",
+        "question": "Viteza s&acirc;ngelui: "
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "in teritoriul venos se afla circa 75% din volumul sangvin",
+            "viteza de circulatie a sangelui scade de la periferie spre inima",
+            "in cele doua vene cave viteza este de 500 mm/s",
+            "din venele aflate deasupra atriului drept este influentata negativ de gravitatie",
+            "este influentata negativ de masajul pulsatil efectuat de artere asupra venelor omonime"
+        ],
+        "correct_answer": "in teritoriul venos se afla circa 75% din volumul sangvin",
+        "question": "Circulația venoasă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este mai gros in atrii",
+            "prezinta fibre musculare orientate circular si oblic in peretele ventriculelor",
+            "prezinta fibre musculare oblic - spiralate in atrii",
+            "ventricular prezinta muschi papilari si trabecule carnoase",
+            "atrial prezinta muschi papilari"
+        ],
+        "correct_answer": "ventricular prezinta muschi papilari si trabecule carnoase",
+        "question": "Miocardul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt in numar de patru",
+            "se impart in ramuri care se anastomozeaza intre ele",
+            "se desprind de la originea aortei",
+            "se deschid in atriul drept"
+        ],
+        "correct_answer": "se desprind de la originea aortei",
+        "question": "Arterele coronare:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "dureaza 0,1 secunde",
+            "creste presiunea intraventriculara",
+            "se deschid valvulele semilunare",
+            "se inchid orificiile atrioventriculare",
+            "sangele se scurge din atrii in mod pasiv, in proportie de 70 - 80%"
+        ],
+        "correct_answer": "sangele se scurge din atrii in mod pasiv, in proportie de 70 - 80%",
+        "question": "Diastola ventriculară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "prezinta o zona corticala in care se gasesc cordoane de tesut limfoid",
+            "prezinta o zona medulara cu foliculi limfatici",
+            "formeaza grupuri in anumite regiuni (axilar, latero-cervical, abdominal)",
+            "se gasesc pe traiectul venelor",
+            "sunt inveliti de o capsula care nu formeaza trabecule in interior"
+        ],
+        "correct_answer": "formeaza grupuri in anumite regiuni (axilar, latero-cervical, abdominal)",
+        "question": "Ganglionii limfatici:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este proprietatea miocardului de a conduce unda de contractie",
+            "contractiile miocardului se numesc diastole",
+            "relaxarile miocardului se numesc sistole",
+            "contractiile miocardului se realizeaza cu consum mic de oxigen, inima facand ,,datorie de oxigen\"",
+            "necesita energie furnizata de ATP"
+        ],
+        "correct_answer": "necesita energie furnizata de ATP",
+        "question": "Contractilitatea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "faza I dureaza 10 secunde",
+            "in faza a II-a tromboplastina transforma protrombina in trombina",
+            "faza a II-a dureaza 4 - 8 minute",
+            "formarea fibrinei dureaza 4 -8 minute",
+            "in faza a II-a se formeaza fibrina"
+        ],
+        "correct_answer": "in faza a II-a tromboplastina transforma protrombina in trombina",
+        "question": "Coagularea s&acirc;ngelui:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "prezinta aglutinogenele A, B",
+            "nu prezinta aglutinine",
+            "poate primi sange de la toate grupele",
+            "este donator universal",
+            "prezinta numai aglutinine a"
+        ],
+        "correct_answer": "este donator universal",
+        "question": "Grupa de s&acirc;nge 0 (I):"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "prezinta aglutinine a si b",
+            "nu prezinta aglutinogene",
+            "prezinta aglutinogene A, B",
+            "este donator universal",
+            "poate primi doar de la AB"
+        ],
+        "correct_answer": "prezinta aglutinogene A, B",
+        "question": "Grupa de s&acirc;nge AB (IV):"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "85% din populatia globului au Rh negativ",
+            "15% din indivizi sunt Rh pozitivi",
+            "indivizii posesori de antigen D sunt considerati Rh negativ",
+            "femeile Rh negative, cu sarcina Rh pozitiva nu pot sintetiza anticorpi anti Rh"
+        ],
+        "correct_answer": "prezinta aglutinogene A, B",
+        "question": "Sistemul Rh:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "1% proteine",
+            "9% substante anorganice",
+            "60% apa",
+            "90% apa",
+            "10% substante anorganice"
+        ],
+        "correct_answer": "90% apa",
+        "question": "Plasma sangvină conține:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "emit pseudopode",
+            "au proprietatea de diapedeza",
+            "sunt celule fara nucleu",
+            "fagociteaza microorganisme",
+            "produc anticorpi"
+        ],
+        "correct_answer": "sunt celule fara nucleu",
+        "question": "Eritrocitele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt anucleate",
+            "au culoare rosie, data de hemoglobina",
+            "transporta gaze respiratorii",
+            "contin heparina"
+        ],
+        "correct_answer": "contin heparina",
+        "question": "Bazofilele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt celule sferice cu nucleu lobat",
+            "au o durata de viata de 120 de zile",
+            "elibereaza histamina, serotonina, factori care intervin in coagulare"
+        ],
+        "correct_answer": "elibereaza histamina, serotonina, factori care intervin in coagulare",
+        "question": "Trombocitele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt anucleate",
+            "in tesuturi se transforma in macrofage avand capacitate de fagocitare",
+            "produc anticorpi",
+            "au forma de disc biconcav"
+        ],
+        "correct_answer": "in tesuturi se transforma in macrofage avand capacitate de fagocitare",
+        "question": "Monocitele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se mai numeste mica circulatie",
+            "include arterele pulmonare",
+            "include capilarele pulmonare",
+            "include venele pulmonare",
+            "include aorta cu ramurile ei"
+        ],
+        "correct_answer": "include aorta cu ramurile ei",
+        "question": "Circulația sistemică:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se mai numeste marea circulatie",
+            "include aorta cu ramurile ei",
+            "include cele patru vene pulmonare",
+            "porneste din ventriculul stang",
+            "porneste din atriul drept"
+        ],
+        "correct_answer": "include cele patru vene pulmonare",
+        "question": "Circulația pulmonară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "calice mici",
+            "calice mari",
+            "bazinet",
+            "pelvis renal",
+            "uretere"
+        ],
+        "correct_answer": "uretere",
+        "question": "Reprezintă căi extrarenale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se diferentiaza in timus",
+            "raspund de imunitatea celulara",
+            "nu produc anticorpi",
+            "se diferentiaza in celule supresoare",
+            "se diferentiaza in celule cu memorie"
+        ],
+        "correct_answer": "se diferentiaza in celule cu memorie",
+        "question": "Limfocitele B:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se diferentiaza in maduva rosie osoasa",
+            "raspund de imunitatea umorala",
+            "produc anticorpi",
+            "se diferentiaza in celule helper",
+            "sunt anucleate"
+        ],
+        "correct_answer": "se diferentiaza in celule helper",
+        "question": "Limfocitele T:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reprezinta 15% din numarul nefronilor",
+            "au glomerulul situat la jonctiunea dintre medulara si corticala",
+            "au ansa Henle scurta",
+            "au ansa Henle lunga",
+            "reprezinta 60% din numarul total al nefronilor"
+        ],
+        "correct_answer": "au ansa Henle scurta",
+        "question": "Nefronii corticali:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reprezinta 85% din numarul nefronilor",
+            "au glomerulul situat in corticala",
+            "au ansa Henle scurta",
+            "au ansa Henle lunga",
+            "reprezinta 60% din numarul total al nefronilor"
+        ],
+        "correct_answer": "au ansa Henle lunga",
+        "question": "Nefronii juxtamedulari:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "in conditii bazale este 20% din debitul cardiac de repaus",
+            "in conditii bazale este 40% din debitul cardiac de repaus",
+            "in conditii bazale este 60% din debitul cardiac de repaus",
+            "este aproximativ 500ml/min",
+            "este aproximativ 20ml/100 g tesut/minut"
+        ],
+        "correct_answer": "in conditii bazale este 20% din debitul cardiac de repaus",
+        "question": "Debitul sangvin renal:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "la polul vascular iese arteriola aferenta",
+            "la polul vascular patrunde arteriola eferenta",
+            "prezinta capilarele glomerulare formate din arteriola eferenta",
+            "prezinta doi poli, unul vascular si unul urinifer",
+            "arteriola aferenta are diametru mai mic decat cea eferenta"
+        ],
+        "correct_answer": "prezinta doi poli, unul vascular si unul urinifer",
+        "question": "Corpusculul renal:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este redusa",
+            "este asigurata de artera renala, ramura a aortei toracice",
+            "artera renala nu se ramifica dupa ce patrunde prin hil",
+            "arterele interlobare devin artere arcuate, dupa ce ajung la baza piramidelor Malpighi",
+            "din arterele arcuate se desprind arteriole eferente"
+        ],
+        "correct_answer": "arterele interlobare devin artere arcuate, dupa ce ajung la baza piramidelor Malpighi",
+        "question": "Vascularizația renală:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "2% glucoza",
+            "1% proteine",
+            "5% substante organice (uree, acid uric, creatinina)",
+            "2% saruri minerale",
+            "60% apa"
+        ],
+        "correct_answer": "2% saruri minerale",
+        "question": "Urina finală conține:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt in numar de 3 - 5 pentru fiecare rinichi",
+            "sunt orientate cu varful spre periferie",
+            "sunt orientate cu baza spre sinusul renal",
+            "sunt formate din tubi colectori care dreneaza mai multi nefroni",
+            "au baza rotunjita, orientata spre hil"
+        ],
+        "correct_answer": "sunt formate din tubi colectori care dreneaza mai multi nefroni",
+        "question": "Piramidele Malpighi:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se desfasoara in special in ficat si tesutul adipos",
+            "se realizeaza atunci cand aportul de glucide este mai mic decat cel necesar",
+            "in conditii de inanitie este sursa de glucoza a organismului",
+            "este inhibata de insulina",
+            "este stimulata de STH"
+        ],
+        "correct_answer": "se desfasoara in special in ficat si tesutul adipos",
+        "question": "Lipogeneza:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "cortizolul",
+            "STH",
+            "aldosteron",
+            "insulina",
+            "hormoni sexuali"
+        ],
+        "correct_answer": "cortizolul",
+        "question": "Hormon catabolizant proteic:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se realizeaza la nivelul tegumentelor, pe aceasta cale pierzandu-se 85% din caldura corpului",
+            "se realizeaza prin eliminarile de urina si fecale",
+            "este rezultatul unor procese fizice (radiatia, conductia si evaporarea apei)",
+            "se refera la pierderea de caldura",
+            "este rezultatul reactiilor metabolice energogenetice din celulele organismului"
+        ],
+        "correct_answer": "este rezultatul reactiilor metabolice energogenetice din celulele organismului",
+        "question": "Termogeneza:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are loc in special la nivelul ficatului si muschilor",
+            "in etapa anaeroba duce la formarea acidului piruvic",
+            "se refera la sinteza de glucide din produsi neglucidici",
+            "ficatul sintetizeaza si depune glicogen in timpul hiperglicemiei postprandiale"
+        ],
+        "correct_answer": "are loc in special la nivelul ficatului si muschilor",
+        "question": "Glicogenogeneza:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "foliculii de Graaf",
+            "2-4 tubi seminiferi contorti",
+            "capilare",
+            "nervi",
+            "celule interstitiale Leydig"
+        ],
+        "correct_answer": "foliculii de Graaf",
+        "question": "&Icirc;n structura lobulului testicular nu&nbsp;intră:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are fata laterala acoperita de pavilionul trompei",
+            "are fata mediala pe peretele lateral al cavitatii pelviene",
+            "este un conduct musculo-conjunctiv",
+            "prezinta foliculii ovarieni in zona medulara",
+            "are functie endocrina, dar si exocrina"
+        ],
+        "correct_answer": "are functie endocrina, dar si exocrina",
+        "question": "Ovarul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt localizati in zona medulara",
+            "secundari sunt foliculii maturi",
+            "se maturizeaza cate unul in fiecare luna, de la pubertate pana la menopauza",
+            "foliculii primordiali contin in interior ovocitul",
+            "foliculii primordiali se transforma in corp galben"
+        ],
+        "correct_answer": "se maturizeaza cate unul in fiecare luna, de la pubertate pana la menopauza",
+        "question": "Foliculii ovarieni:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "tubulo-acinos",
+            "tubulo-glomerular",
+            "alveolare",
+            "tubuloase",
+            "tubulo-alveolare"
+        ],
+        "correct_answer": "tubulo-acinos",
+        "question": "Glandele mamare sunt de tip:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "tubulo-acinos",
+            "tubulo-glomerulare",
+            "alveolare",
+            "tubuloase",
+            "tubulo-alveolare"
+        ],
+        "correct_answer": "tubulo-glomerulare",
+        "question": "Glandele sudoripare sunt de tip:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "tubulo-acinos",
+            "tubulo-glomerulare",
+            "alveolare",
+            "tubuloase",
+            "tubulo-alveolare"
+        ],
+        "correct_answer": "alveolare",
+        "question": "Glandele sebacee sunt glande de tip:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "tubulo-acinos",
+            "tubulo-glomerulare",
+            "alveolare",
+            "tubuloase",
+            "tubulo-alveolare"
+        ],
+        "correct_answer": "tubulo-acinos",
+        "question": "Glandele salivare sunt glande de tip:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "centrozomul",
+            "lizozomii",
+            "mitocondriile",
+            "dictiozomii",
+            "ribozomii"
+        ],
+        "correct_answer": "mitocondriile",
+        "question": "Organite celulare cu rol &icirc;n respirația celulară:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "dictiozomii",
+            "ribozomii ",
+            "mitocondriile",
+            "neurofibrilele",
+            "lizozomii "
+        ],
+        "correct_answer": "lizozomii ",
+        "question": "Organite celulare care conțin enzime hidrolitice sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "dictiozomilor",
+            "lizozomilor",
+            "ribozomilor",
+            "mitocondriilor",
+            "miofibrilelor"
+        ],
+        "correct_answer": "mitocondriilor",
+        "question": "Sediul formării ATP-ului este la nivelul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "centrozomul",
+            "corpii Nissl",
+            "ribozomii",
+            "miofibrilele",
+            "lizozomii"
+        ],
+        "correct_answer": "corpii Nissl",
+        "question": "Organite celulare specifice celulelor nervoase:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "neurofibrilele",
+            "miofibrilele",
+            "ribozomii",
+            "mitocondriile",
+            "dictiozomii"
+        ],
+        "correct_answer": "miofibrilele",
+        "question": "Organite celulare care conțin proteine contractile (actină și miozină) sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "discurilor intervertebrale",
+            "meniscurilor articulare",
+            "simfizei pubiene",
+            "epiglotei",
+            "septului nazal"
+        ],
+        "correct_answer": "epiglotei",
+        "question": "Cartilaj elastic este &icirc;nt&acirc;lnit &icirc;n structura:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are aspect buretos",
+            "este format din trabecule care se intretaie",
+            "are areole",
+            "cavitatile mici sunt pline cu maduva rosie",
+            "are ca unitate structurala osteonul"
+        ],
+        "correct_answer": "are ca unitate structurala osteonul",
+        "question": "Țesutul osos compact:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este continua",
+            "acopera fibra nervoasa la exterior",
+            "este de natura conjunctiva",
+            "are rol nutritiv si de protectie",
+            "se gaseste in SNC"
+        ],
+        "correct_answer": "se gaseste in SNC",
+        "question": "Care dintre următoarele afirmații referitoare la teaca Henle nu este adevărată?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt excitabile",
+            "nu au capacitatea de a se divide",
+            "prezinta neurofibrile",
+            "au corpi Nissl",
+            "pot lua locul neuronilor distrusi"
+        ],
+        "correct_answer": "pot lua locul neuronilor distrusi",
+        "question": "Celulele gliale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "maduva hematogena",
+            "hipoderm",
+            "capsulele organelor",
+            "tunica medie a arterelor mari",
+            "epiglota"
+        ],
+        "correct_answer": "maduva hematogena",
+        "question": "Țesut reticulat este &icirc;nt&icirc;lnit &icirc;n:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are rol de izolator electric",
+            "lipseste la nivelul fibrelor postganglionare",
+            "este produsa de celulele Schwann sau de oligodendroglie",
+            "are rol nutritiv",
+            "este continua pentru neuronii din SNP"
+        ],
+        "correct_answer": "este continua pentru neuronii din SNP",
+        "question": "Care dintre afirmațiile următoare referitoare la mielină nu este adevărată?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este un sistem coloidal",
+            "mediul de dispersie este apa",
+            "faza dispersata este ansamblul de micelii coloidale",
+            "are o parte structurata, hialoplasma",
+            "prezinta organite comune tuturor celulelor si specifice anumitor celule"
+        ],
+        "correct_answer": "are o parte structurata, hialoplasma",
+        "question": "Afirmația FALSĂ&nbsp;referitoare la citoplasmă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleul Goll",
+            "nucleul Burdach",
+            "nucleii olivari",
+            "nucleii cardiovasculari",
+            "nucleul rosu"
+        ],
+        "correct_answer": "nucleul rosu",
+        "question": "Nucleii proprii ai mezencefalului sunt reprezentați de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "audiocefalogir",
+            "oculocefalogir",
+            "mioza",
+            "lacrimal",
+            "de deglutitie"
+        ],
+        "correct_answer": "lacrimal",
+        "question": "Reflex care se &icirc;nchide la nivelul punții:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "salivar",
+            "lacrimal",
+            "de clipire",
+            "audiocefalogir",
+            "tuse"
+        ],
+        "correct_answer": "audiocefalogir",
+        "question": "Reflex care se &icirc;nchide la nivelul mezencefalului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleul Goll",
+            "nucleii olivari",
+            "nucleii cardiovasculari",
+            "coliculii cvadrigemeni",
+            "nucleul rosu"
+        ],
+        "correct_answer": "nucleii cardiovasculari",
+        "question": "Nucleii proprii din punte sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "audiocefalogir",
+            "oculocefalogir",
+            "mioza",
+            "stranut",
+            "de clipire"
+        ],
+        "correct_answer": "stranut",
+        "question": "Reflex care se &icirc;nchide la nivelul bulbului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculele piramidale incrucisate",
+            "fasciculele rubrospinale",
+            "fasciculele nigrospinale",
+            "fasciculele vestibulospinale",
+            "fasciculul nigrospinal"
+        ],
+        "correct_answer": "fasciculele piramidale incrucisate",
+        "question": "Fasciculele care conduc motilitatea voluntară sunt:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculele piramidale directe",
+            "fasciculele rubrospinale",
+            "fasciculele nigrospinale",
+            "fasciculele vestibulospinale",
+            "fasciculul nigrospinal"
+        ],
+        "correct_answer": "fasciculele piramidale directe",
+        "question": "Au neuronii de origine &icirc;n cortex:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "au timp de latenta scurt",
+            "au doar doi neuroni",
+            "sunt strict limitate",
+            "nu iradiaza",
+            "iradiaza diferit, in functie de intensitatea excitantului"
+        ],
+        "correct_answer": "iradiaza diferit, in functie de intensitatea excitantului",
+        "question": "Reflexele polisinaptice:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este formata din fibre nervoase mielinice si amielinice",
+            "este dispusa sub forma literei H la nivelul trunchiului cerebral",
+            "formeaza nucleii cerebelosi (fastigiali, globosi, emboliformi si dintati)",
+            "este dispusa la exterior la nivelul trunchiului cerebral",
+            "este dispusa la periferie in maduva spinarii"
+        ],
+        "correct_answer": "formeaza nucleii cerebelosi (fastigiali, globosi, emboliformi si dintati)",
+        "question": "Substanța cenușie:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este formata din corpii neuronilor",
+            "este dispusa la interior in maduva spinarii",
+            "este impartita in cordoane posteriore, laterale si anterioare la nivelul maduvei spinarii",
+            "realizeaza legatura doar intr-un singur sens, intre encefal si SNP",
+            "indeplineste rol de centru reflex"
+        ],
+        "correct_answer": "este impartita in cordoane posteriore, laterale si anterioare la nivelul maduvei spinarii",
+        "question": "Substanța albă:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "contribuie la constituirea caii extrapiramidale",
+            "inhiba tonusul musculaturii striate",
+            "contribuie la realizarea miscarilor stereotipe, automate",
+            "reprezinta zona de proiectie a sensibilitatilor specifice",
+            "exercita o influenta moderatoare asupra miscarilor active comandate de cortexul cerebral"
+        ],
+        "correct_answer": "reprezinta zona de proiectie a sensibilitatilor specifice",
+        "question": "Afirmația FALSĂ referitoare la ganglionii bazali este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reprezinta zona de proiectie primara si de integrare a aferentelor olfactive",
+            "reprezinta zona de proiectie corticala a sensibilitatilor specifice",
+            "controleaza si regleaza impreuna cu hipotalamusul activitatea vegetativa si endocrina",
+            "intervine in coordonarea comportamentului afectiv - emotional si instinctual",
+            "intervine in functia de recompensa - pedeapsa"
+        ],
+        "correct_answer": "reprezinta zona de proiectie corticala a sensibilitatilor specifice",
+        "question": "Afirmația FALSĂ referitoare la sistemul limbic este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "aria motorie principala",
+            "ariile piramidale",
+            "ariile extrapiramidale",
+            "aria somestezica secundara",
+            "centrul motor al vorbirii"
+        ],
+        "correct_answer": "aria somestezica secundara",
+        "question": "Aparțin neocortexului receptor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "ariile auditive",
+            "ariile piramidale",
+            "aria echilibrului",
+            "ariile vizuale",
+            "aria olfactiva"
+        ],
+        "correct_answer": "ariile piramidale",
+        "question": "Aparțin neocortexului motor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este alcatuit din doua perechi de corpi geniculati",
+            "este situat sub talamus",
+            "include nucleii habenulari",
+            "nucleii de la acest nivel contin neuroni de releu pentru caile sensibilitatilor specifice",
+            "include nuclei posteriori care intervin in reglarea simpatica"
+        ],
+        "correct_answer": "include nucleii habenulari",
+        "question": "Epitalamusul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este alcatuit din doua perechi de corpi geniculati",
+            "include nucleii habenulari",
+            "nucleii de la acest nivel contin neuroni de releu pentru caile sensibilitatilor specifice",
+            "include nuclei posteriori care intervin in reglarea simpatica",
+            "include glanda epifiza"
+        ],
+        "correct_answer": "include nuclei posteriori care intervin in reglarea simpatica",
+        "question": "Hipotalamusul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleii de la acest nivel contin neuroni de releu pentru caile sensibilitatilor specifice",
+            "include nucleii habenulari",
+            "este alcatuit din doua perechi de corpi geniculati",
+            "include nuclei posteriori care intervin in reglarea simpatica",
+            "include glanda epifiza"
+        ],
+        "correct_answer": "nucleii de la acest nivel contin neuroni de releu pentru caile sensibilitatilor specifice",
+        "question": "Talamusul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fac legatura intre cele doua emisfere",
+            "includ comisura alba anterioara",
+            "includ corpul calos",
+            "includ fornixul",
+            "conecteaza cortexul cu alte structuri ale SNC"
+        ],
+        "correct_answer": "conecteaza cortexul cu alte structuri ale SNC",
+        "question": "Afirmația FALSĂ referitoare la fibrele comisurale de la nivelul emisferelor cerebrale este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt in numar de 12 perechi",
+            "nu au dispozitie metamerica",
+            "asigura inervatia extremitatii cefalice",
+            "sunt senzitivi, motori si micsti",
+            "fiecare nerv este alcatuit din doua radacini, un trunchi si cinci ramuri"
+        ],
+        "correct_answer": "fiecare nerv este alcatuit din doua radacini, un trunchi si cinci ramuri",
+        "question": "Nervii spinali:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt in numar de 31 de perechi",
+            "au dispozitie metamerica",
+            "fiecare nerv este alcatuit din doua radacini, un trunchi si cinci ramuri",
+            "cu exceptia primelor doua perechi, apartin trunchiului cerebral",
+            "ramurile ventrale se impletesc si formeaza plexuri nervoase"
+        ],
+        "correct_answer": "cu exceptia primelor doua perechi, apartin trunchiului cerebral",
+        "question": "Nervii cranieni:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este mixta",
+            "contine doar fibre senzitive",
+            "contine doar fibre visceromotorii",
+            "formeaza nervii intercostali",
+            "contine fibre mielinice"
+        ],
+        "correct_answer": "contine doar fibre visceromotorii",
+        "question": "Ramura comunicantă cenușie a nervilor spinali:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "contin fibre somatosenzitive",
+            "determina miscari ale globului ocular",
+            "raspund se sensibilitatea faringelui",
+            "determina miscari ale muschilor masticatori",
+            "au rol in realizarea reflexului pupilo - contrictor"
+        ],
+        "correct_answer": "determina miscari ale globului ocular",
+        "question": "Nervii cranieni VI:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "raspund de sensibilitatea gustativa (partea anterioara a limbii)",
+            "determina miscarile limbii",
+            "determina miscari ale muschilor masticatori",
+            "determina contractia muschilor faringelui",
+            "determina contractia musculaturii mimicii"
+        ],
+        "correct_answer": "determina contractia muschilor faringelui",
+        "question": "Nervii cranieni IX:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul spinotalamic anterior",
+            "fasciculul spinotalamic lateral",
+            "fasciculele spinobulbare Goll si Burdach",
+            "fasciculele olivospinale",
+            "fasciculele tectospinale"
+        ],
+        "correct_answer": "fasciculele spinobulbare Goll si Burdach",
+        "question": "Sensibilitatea tactilă fină, epicritică, este condusă prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul spinotalamic anterior",
+            "fasciculul spinotalamic lateral",
+            "fasciculele spinobulbare Goll si Burdach",
+            "fasciculul spinocerebelos direct",
+            "fasciculele spinocerebelos incrucisat"
+        ],
+        "correct_answer": "fasciculul spinotalamic anterior",
+        "question": "Sensibilitatea tactilă grosieră, protopatică, este condusă prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul spinotalamic anterior",
+            "fasciculul spinotalamic lateral",
+            "fasciculele spinobulbare Goll si Burdach",
+            "fasciculul spinocerebelos direct",
+            "fasciculele spinocerebelos incrucisat"
+        ],
+        "correct_answer": "fasciculul spinotalamic lateral",
+        "question": "Sensibilitatea termică și dureroasă este condusă prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul spinotalamic anterior",
+            "fasciculul spinotalamic lateral",
+            "fasciculele spinobulbare Goll si Burdach",
+            "fasciculul spinocerebelos direct si fasciculul&nbsp; spinocerebelos incrucisat",
+            "fasciculele reticulospinale"
+        ],
+        "correct_answer": "fasciculul spinocerebelos direct si fasciculul&nbsp; spinocerebelos incrucisat",
+        "question": "Sensibilitatea proprioceptivă inconștientă este condusă prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "celiac",
+            "Meissner si Auerbach",
+            "mezenteric superior",
+            "hipogastric superior",
+            "splenic"
+        ],
+        "correct_answer": "Meissner si Auerbach",
+        "question": "Plexuri simpatico - parasimpatice intramurale:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "fasciculul spinotalamic anterior",
+            "fasciculul spinotalamic lateral",
+            "fasciculele spinobulbare Goll si Burdach",
+            "fasciculul spinocerebelos direct&nbsp;",
+            "fasciculele reticulospinale"
+        ],
+        "correct_answer": "fasciculele spinobulbare Goll si Burdach",
+        "question": "Sensibilitatea proprioceptivă conștientă este condusă prin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "are calea aferenta reprezentata de fibre viscerosenzitive cu originea in ganglionii spinali S2 - S4&nbsp;",
+            "prezinta centrii la nivel cranian (nucleii vegetativi din vecinatatea nucleilor de origine a nervilor cranieni III, VII, IX si X)",
+            "ganglionii sunt intramurali sau juxtaviscerali",
+            "intervine in situatii neobisnuite, periculoase",
+            "fibrele postganglionare sunt subtiri si scurte"
+        ],
+        "correct_answer": "intervine in situatii neobisnuite, periculoase",
+        "question": "Sistemul nervos vegetativ simpatic:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "nucleii anteriori ai hipotalamusului",
+            "adenohipofiza",
+            "epifiza",
+            "lobul intermediar hipofizar",
+            "paratiroide"
+        ],
+        "correct_answer": "nucleii anteriori ai hipotalamusului",
+        "question": "Ocitocina este secretată de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "portiunea posterioara a tunicii externe",
+            "avasculara",
+            "transparenta",
+            "membrana ce contine melanina",
+            "opaca, alb - sidefie"
+        ],
+        "correct_answer": "membrana ce contine melanina",
+        "question": "Coroida este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este alcatuit din mediile refringente",
+            "este reprezentat de tunica externa",
+            "este reprezentat de tunica medie",
+            "este reprezentat de retina",
+            "este reprezentat de mediile transparente"
+        ],
+        "correct_answer": "este reprezentat de retina",
+        "question": "Sistemul fotoreceptor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este o lentila biconcava",
+            "este localizat in fata irisului",
+            "prin intermediul zonulei Zinn este actionat de muschiul ciliar",
+            "este invelit de hialoida",
+            "ocupa cavitatea posterioara"
+        ],
+        "correct_answer": "ocupa cavitatea posterioara",
+        "question": "Cristalinul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "un neuron multipolar din retina",
+            "celulele cu conuri",
+            "celulele cu bastonase",
+            "un neuron bipolar din retina",
+            "un neuron pseudounipolar"
+        ],
+        "correct_answer": "un neuron bipolar din retina",
+        "question": "Protoneuronul căii optice este reprezentat de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "imagine clara",
+            "reala",
+            "virtuala",
+            "mai mica",
+            "rasturnata"
+        ],
+        "correct_answer": "virtuala",
+        "question": "Afirmația FALSĂ referitoare la formarea imaginii pe retină:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "sunt cele mai mici elemente figurate",
+            "migreaza in tesuturi unde se transforma in macrofage",
+            "nu au nucleu",
+            "elibereaza factori care intervin in coagularea singelui",
+            "se formeaza din megacariocite"
+        ],
+        "correct_answer": "migreaza in tesuturi unde se transforma in macrofage",
+        "question": "Monocitele:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "C8 - T2",
+            "T3 -T5",
+            "T1 - L2",
+            "T6 - L2",
+            "S2 - S4"
+        ],
+        "correct_answer": "C8 - T2",
+        "question": "Centrii nervoși pentru reflexul vegetativ simpatic pupilodilatator sunt &icirc;n măduva spinării, &icirc;n regiunea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "C8 - T2",
+            "T3 -T5",
+            "T1 - L2",
+            "T6 - L2",
+            "S2 - S4"
+        ],
+        "correct_answer": "T3 -T5",
+        "question": "Centrii nervoși pentru reflexul vegetativ simpatic cardioaccelerator sunt &icirc;n măduva spinării, &icirc;n regiunea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "C8 - T2",
+            "T3 -T5",
+            "T1 - L2",
+            "T6 - L2",
+            "S2 - S4"
+        ],
+        "correct_answer": "T1 - L2",
+        "question": "Centrii nervoși pentru reflexul vegetativ simpatic sudoral sunt &icirc;n măduva spinării, &icirc;n regiunea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "C8 - T2",
+            "T3 -T5",
+            "T1 - L2",
+            "T6 - L2",
+            "S2 - S4"
+        ],
+        "correct_answer": "S2 - S4",
+        "question": "Centrii nervoși pentru reflexul vegetativ parasimpatic de micțiune sunt &icirc;n măduva spinării, &icirc;n regiunea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "a realiza integrarea superioara a sensibilitatii somatice",
+            "memorie vizuala",
+            "a determina personalitatea",
+            "a determina reactiile emotionale",
+            "a interveni in activitatea sexuala"
+        ],
+        "correct_answer": "a realiza integrarea superioara a sensibilitatii somatice",
+        "question": "Aria de asociație parietooccipitală are rolul de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "a realiza integrarea superioara a sensibilitatii somatice",
+            "memorie vizuala",
+            "a determina personalitatea",
+            "a determina reactiile emotionale",
+            "a interveni in activitatea sexuala"
+        ],
+        "correct_answer": "a determina personalitatea",
+        "question": "Aria de asociație prefrontală are rolul de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "a realiza integrarea superioara a sensibilitatii somatice",
+            "memorie vizuala",
+            "a determina personalitatea",
+            "a controla miscarile voluntare",
+            "a determina sensibilitatea proprioceptiva constienta"
+        ],
+        "correct_answer": "memorie vizuala",
+        "question": "Aria de asociație temporală are rolul de:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "reducerea tensiunii superficiale",
+            "favorizare a emulsionarii grasimilor",
+            "degradarea oligopeptidelor pana la dipeptide",
+            "activarea lipazelor",
+            "formarea de micelii cu lipidele"
+        ],
+        "correct_answer": "degradarea oligopeptidelor pana la dipeptide",
+        "question": "Nu&nbsp;este rol al sărurilor biliare:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "ureea",
+            "glucoza"
+        ],
+        "correct_answer": "ureea",
+        "question": "La nivelul tubului contort proximal, prin transport pasiv se absoarbe:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "se elimina mucoasa uterina",
+            "se produce o pierdere de sange",
+            "se fac pregatiri in vederea nidatiei viitorului embrion (din a 15-a pana intr-a 28-a zi)",
+            "se ingroasa mucoasa uterina sub influenta estrogenilor&nbsp;",
+            "are loc ovulatia (ziua a 6-a)"
+        ],
+        "correct_answer": "se ingroasa mucoasa uterina sub influenta estrogenilor&nbsp;",
+        "question": "&Icirc;n faza poliferativă a ciclului uterin:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "stimuleaza biosinteza proteinelor la nivel celular",
+            "stimuleaza cetogeneza",
+            "scade glicemia",
+            "mobilizeaza acizii grasi din depozite",
+            "scade eliminarile de Na, K, Ca"
+        ],
+        "correct_answer": "scade glicemia",
+        "question": "Care dintre următoarele acțiuni nu&nbsp;este a STH?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "stimuleaza osteogeneza la organismele tinere",
+            "scade fosfatemia",
+            "creste calcemia",
+            "inhiba activitatea osteolitica"
+        ],
+        "correct_answer": "creste calcemia",
+        "question": "Care dintre următoarele acțiuni nu&nbsp;este a calcitoninei?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "relaxeaza musculatura tractului digestiv",
+            "produce contractia sfincterelor digestive",
+            "produce hipoglicemie",
+            "creste forta de contractie a miocardului",
+            "determina anxietate si frica"
+        ],
+        "correct_answer": "produce hipoglicemie",
+        "question": "Care dintre următoarele acțiuni nu este a adrenalinei?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "determina cresterea secretiei de FSH",
+            "influenteaza centrii hipotalamici responsabili de reglarea activitatii sexuale",
+            "determina proliferarea mucoasei uterine si a glandelor acesteia",
+            "scad concentratia glucozei in sange",
+            "stimuleaza sinteza proteica"
+        ],
+        "correct_answer": "determina cresterea secretiei de FSH",
+        "question": "Nu&nbsp;reprezintă o acțiune a estrogenilor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "irisul",
+            "corneea",
+            "cristalinul",
+            "umoarea apoasa",
+            "corpul vitros"
+        ],
+        "correct_answer": "irisul",
+        "question": "Nu&nbsp;este mediu refringent:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "razele luminoase nu focalizeaza",
+            "razele luminoase focalizeaza inaintea retinei",
+            "vederea se corecteaza cu lentile cilindrice",
+            "vederea se corecteaza cu lentile divergente",
+            "vederea se corecteaza cu lentile biconvexe"
+        ],
+        "correct_answer": "vederea se corecteaza cu lentile biconvexe",
+        "question": "&Icirc;n cazul ochiului hipermetrop:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "razele luminoase nu focalizeaza",
+            "razele luminoase focalizeaza inaintea retinei",
+            "razele luminoase focalizeaza in spatele retinei",
+            "vederea se corecteaza cu lentile biconcave",
+            "vederea se corecteaza cu lentile biconvexe"
+        ],
+        "correct_answer": "razele luminoase nu focalizeaza",
+        "question": "&Icirc;n cazul ochiului astigmatic:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "etapa de osificare primara se finalizeaza cu formarea osului primar brut, nefunctional",
+            "etapa de osfificare secundara se finalizeaza cu formarea osului secundar, functional",
+            "osificarea de membrana caracterizeaza formarea oaselor boltii craniene, a unor oase ale fetei",
+            "osificarea de cartilaj caracterizeaza osificarea vertebrelor",
+            "prin osificarea de cartilaj se realizeaza cresterea in grosime a oaselor lungi&nbsp;"
+        ],
+        "correct_answer": "prin osificarea de cartilaj se realizeaza cresterea in grosime a oaselor lungi&nbsp;",
+        "question": "Care afirmație referitoare la osificare nu&nbsp;este adevărată?"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "frontal",
+            "vomer",
+            "temporal",
+            "parietal",
+            "etmoid"
+        ],
+        "correct_answer": "vomer",
+        "question": "Este os al viscerocraniului osul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "amidonului preparat pana la dextrine si maltoza",
+            "polipeptidelor pana la aminoacizi",
+            "lipidelor pana la acizi grasi si glicerol",
+            "proteinelor pana la albumoze si peptone",
+            "oligopeptidelor pana la dipeptide"
+        ],
+        "correct_answer": "amidonului preparat pana la dextrine si maltoza",
+        "question": "&Icirc;n cazul digestiei bucale are loc transformarea:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "este cea mai mare glanda exocrina, avand o greutate de 1000 g",
+            "fata superioara prezinta patru lobi",
+            "fata inferioara prezinta doi lobi",
+            "santurile de pe fata superioara sunt dispuse sub forma literei H",
+            "pe fata inferioara exista hilul hepatic, locul de intrare a arterei hepatice, venei porte"
+        ],
+        "correct_answer": "pe fata inferioara exista hilul hepatic, locul de intrare a arterei hepatice, venei porte",
+        "question": "Ficatul:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "excitabilitatea este capacitatea muschiului de a raspunde la excitanti prin modificari specifice",
+            "forma specifica de raspuns este contractia, in cazul muschiului",
+            "excitantul specific este influxul nervos",
+            "excitabilitatea are la baza proprietatile membranei celulare (polarizarea electrica, impermeabilitatea)",
+            "transmiterea influxului nervos la nivelul muschilor striati se realizeaza la nivelul placii motorii"
+        ],
+        "correct_answer": "excitabilitatea are la baza proprietatile membranei celulare (polarizarea electrica, impermeabilitatea)",
+        "question": "Afirmația falsă referitoare la excitabilitatea mușchiului:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "influentarea diferentierii neuronilor",
+            "scaderea lipolizei hepatice",
+            "cresterea absorbtiei intestinale a glucozei",
+            "intensificarea catabolismului proteinelor plasmatice si musculare",
+            "cresterea excretiei de azot"
+        ],
+        "correct_answer": "scaderea lipolizei hepatice",
+        "question": "Nu&nbsp;este o acțiune a hormonilor tiroidieni:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "cresterea eliminarilor de azot",
+            "producerea hiperglicemiei",
+            "scaderea lipemiei",
+            "stimularea catabolismului proteic",
+            "stimuleaza eliminarea excesului de apa"
+        ],
+        "correct_answer": "scaderea lipemiei",
+        "question": "Nu&nbsp;este un efect al glucocorticoizilor:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "85% din indivizii umani sunt Rh+",
+            "in mod normal, indivizii Rh- nu au an sange aglutinine anti-Rh",
+            "15% din indivizi nu au pe hematii antigenul D",
+            "indivizii Rh- pot sa sintetizeze aglutinine anti-D, daca primesc o singura transfuzie de sange Rh+"
+        ],
+        "correct_answer": "scaderea lipemiei",
+        "question": "Afirmația FALSĂ referitoare la sistemul Rh:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "0,1 m/s",
+            "0,5 mm/s",
+            "0,5 m/h",
+            "5,0 mm/s",
+            "0,1 mm/s"
+        ],
+        "correct_answer": "0,1 m/s",
+        "question": "Viteza scurgerii s&acirc;ngelui prin venele mari este:"
+    },
+    {
+        "topic": "Unknown",
+        "answers": [
+            "unele se transforma in celule producatoare de anticorpi",
+            "unele se diferentiaza in celule care inhiba functia imunitara a altor limfocite",
+            "unele se diferentiaza in celule cu memorie",
+            "unele se diferentiaza in celule killer",
+            "nu au rol in fagocitoza"
+        ],
+        "correct_answer": "nu au rol in fagocitoza",
+        "question": "Limfocitele au următoarele roluri, cu o excepție:"
+    },
+    {
+        "correct_answer": "Cartilajul lor se articuleaza cu sternul",
+        "answers": [
+            "Cartilajul lor se articuleaza cu sternul",
+            "Se articuleaza cu sternul prin intermediul coastei VII",
+            "Nu au cartilaj ?i nu ajung la stern",
+            "Se mai numesc flotante",
+            "Nici un raspuns nu este corect"
+        ],
+        "question": "Primele 7 coaste se numesc coaste adevarate deoarece:"
+    },
+    {
+        "correct_answer": "FSH",
+        "answers": [
+            "LH",
+            "FSH",
+            "Insulina",
+            "Adrenalina",
+            "Testosteron"
+        ],
+        "question": "Spermatogeneza este stimulata de:"
+    },
+    {
+        "correct_answer": "Prin caile descendente piramidale ?i extrapiramidale, centrii encefalici exercita controlul motor voluntar (calea piramidala) ?i automat (caile extrapiramidale).",
+        "answers": [
+            "Sensibilitatea kinestezica utilizeaza calea cordoanelor posterioare, impreuna cu sensibilitatea tactila protopatica.",
+            "Calea sensibilita?ii proprioceptive de control al mi?carii este constituita din doua tracturi: spinocerebelos dorsal (incruci?at) ?i spinocerebelos ventral (direct).",
+            "Prin caile descendente piramidale ?i extrapiramidale, centrii encefalici exercita controlul motor voluntar (calea piramidala) ?i automat (caile extrapiramidale).",
+            "25% din fibrele fasciculului piramidal se incruci?eaza la nivelul bulbului, formand fasciculul piramidal incruci?at.",
+            "Fibrele fasciculului corticospinal anterior ajung in cordonul anterior de parte opusa, fiind situat langa fisura mediana."
+        ],
+        "question": "Identifica?i afirma?ia adevarata:"
+    },
+    {
+        "correct_answer": "Nervii vestibulo-cohleari sunt nervi senzoriali si sunt formati dintr-o componenta vestibulara, care are pe traseu ganglionul lui Corti",
+        "answers": [
+            "Dendritele, in portiunea lor initiala, sunt mai groase, apoi se subtiaza",
+            "Teaca Henle separa membrana plasmatica a celulei Schwann de tesutul conjunctiv din jur",
+            "Coarnele posterioare (dorsale) ale maduvei spinarii contin neuroni ai cailor senzitive care au semnificatia de deutoneuron (al doilea neuron), protoneuronul fiind situat in ganglionii spinali",
+            "Nervii vestibulo-cohleari sunt nervi senzoriali si sunt formati dintr-o componenta vestibulara, care are pe traseu ganglionul lui Corti",
+            "Dupa cateva luni de la extirparea cerebelului, tulburarile se atenueaza prin compensare corticala"
+        ],
+        "question": "Identificati afirmatia FALSA:"
+    },
+    {
+        "correct_answer": "Reflexul de mic?iune este un reflex controlat in intregime de maduva spinarii",
+        "answers": [
+            "Mic?iunea este procesul de umplere a vezicii urinare atunci cand este goala",
+            "Reflexul de mic?iune este un reflex controlat in intregime de maduva spinarii",
+            "Urina con?ine 5% apa si 95% substante minerale si substante organice",
+            "Sfincterul extern al vezicii urinare este alcatuit in intregime din mu?chi neted",
+            "Vezica urinara este o cavitate cu peretii alcatui?i din musculatura striata formata din doua parti: corp ?i col"
+        ],
+        "question": "Alegeti afirma?ia corecta:"
+    },
+    {
+        "correct_answer": "Hormonul somatotrop stimuleaza procesele de sinteza a proteinelor;",
+        "answers": [
+            "Hormonul somatotrop stimuleaza procesele de sinteza a proteinelor;",
+            "STH favorizeaza procesele catabolice;",
+            "Cortizolul favorizeaza procesele de sinteza a proteinelor;",
+            "Testosteronul favorizeaza procesele catabolice;",
+            "Tiroxina stimuleaza procesele de sinteza a proteinelor."
+        ],
+        "question": "Alegeti afirmatia CORECTA despre mecanismele de reglare a metabolismului intermediar proteic:"
+    },
+    {
+        "correct_answer": "Sediul principal al secre?iei de H+",
+        "answers": [
+            "Sediul reabsorb?iei active a apei prin mecanism osmotic",
+            "Format din celule care con?in pu?ine mitocondrii",
+            "Sediul principal al secre?iei de H+",
+            "Sediul reabsorb?iei facultative de sodiu (in gradient chimic)",
+            "Sediul secre?iei de potasiu"
+        ],
+        "question": "Tubul contort proximal este:"
+    },
+    {
+        "correct_answer": "Reduce volumul sanguin",
+        "answers": [
+            "Reabsorbtia de Na+ in schimbul K+",
+            "Reabsorbtia de Na+ in schimbul H+",
+            "Reabsorbtia de Na+ este insotita de reabsorbtia clorului",
+            "Reduce volumul sanguin",
+            "Mentine presiunea osmotica a mediului intern"
+        ],
+        "question": "Aldosteronul produce urmatoarele actiuni, cu EXCEPTIA:"
+    },
+    {
+        "correct_answer": "Terminal, aorta abdominala se bifurca la nivelul articula?iei sacro-iliace",
+        "answers": [
+            "Carotida externa da artera vertebrala",
+            "Subclaviculara se continua cu artera brahiala",
+            "Carotida interna iriga viscerele fe?ei",
+            "Carotida comuna dreapta este ram al arcului aortic",
+            "Terminal, aorta abdominala se bifurca la nivelul articula?iei sacro-iliace"
+        ],
+        "question": "Despre ramurile de vasculariza?ie putem afirma:"
+    },
+    {
+        "correct_answer": "Toate variantele sunt adevarate",
+        "answers": [
+            "Arahnoida",
+            "Pia mater",
+            "Dura mater",
+            "Toate variantele sunt adevarate",
+            "Toate variantele sunt false"
+        ],
+        "question": "Meningele spinale sunt:"
+    },
+    {
+        "correct_answer": "25 impulsuri/minut",
+        "answers": [
+            "25 impulsuri/minut",
+            "70 impulsuri/minut",
+            "80 impulsuri/minut",
+            "45 impulsuri/minut",
+            "30 impulsuri/minut"
+        ],
+        "question": "Care este frecven?a de descarcare a impusurilor de catre fasciculul Hiss ?i re?eaua Purkinje?"
+    },
+    {
+        "correct_answer": "Prin homeostazie sunt mentinute, intre anumite limite, unele valori ale mediului intern;",
+        "answers": [
+            "Prin homeostazie sunt mentinute, intre anumite limite, unele valori ale mediului intern;",
+            "Prin intermediul mediatorilor chimici, sistemul endocrin realizeaza homeostazia;",
+            "Sistemul nervos participa la realizarea homeostaziei prin integrarea statica a organismului la conditiile in permanenta schimbare a mediului intern;",
+            "In conditii patologice (disfunctii temporare sau permanente) homeostazia nu se poate realiza prin mijloace extracorporeale;",
+            "In organism, mecanismele de reglare se realizeaza numai prin bucle de feed-back medular."
+        ],
+        "question": "Alegeti varianta corecta:"
+    },
+    {
+        "correct_answer": "Duodenului.",
+        "answers": [
+            "Jejunului;",
+            "Colonului;",
+            "Stomacului;",
+            "Esofagului;",
+            "Duodenului."
+        ],
+        "question": "Mucusul este secretat de glandele Brunner de la nivelul:"
+    },
+    {
+        "correct_answer": "Glucidele sunt degradate rapid, insa se obtin produ?i reziduali.",
+        "answers": [
+            "Glucidele sunt degradate rapid, insa se obtin produ?i reziduali.",
+            "Eficienta transferului de energie prin catabolismul glucidic este de 66%.",
+            "Lipidele reprezinta o rezerva energetica de 50.000 kcal.",
+            "Arderea a 3g de proteine furnizeaza 12,3kcal.",
+            "Legatura macroergica a fosfocreatinei contine 13.000 calorii/mol."
+        ],
+        "question": "Referitor la metabolism, este FALS ca:"
+    },
+    {
+        "correct_answer": "Glucoza",
+        "answers": [
+            "Glucoza",
+            "Hormoni",
+            "Hematii",
+            "Saruri de Na",
+            "Fosfor"
+        ],
+        "question": "In urina finala se gasesc urmatoarele componente, cu o EXCEP?IE:"
+    },
+    {
+        "correct_answer": "Cea mai importanta reabsorb?ie a apei are loc la nivelul tubului contort distal ?i este o reabsorb?ie obligatorie",
+        "answers": [
+            "Nefronii juxtamedulari au anse Henle lungi care coboara adanc in medulara",
+            "In condi?ii bazale debitul sangvin renal reprezinta 20% din debitul cardiac de repaus",
+            "Peste 99% din filtrat este reabsorbit in mod obi?nuit in tubii uriniferi",
+            "Presiunea din capsula Bowmann, care se opune filtrarii, este de aproximativ 18 mm Hg",
+            "Cea mai importanta reabsorb?ie a apei are loc la nivelul tubului contort distal ?i este o reabsorb?ie obligatorie"
+        ],
+        "question": "Urmatoarele afirma?ii sunt adevarate mai pu?in una:"
+    },
+    {
+        "correct_answer": "Somatostatinei;",
+        "answers": [
+            "Acetilcolinei;",
+            "Prolactinei;",
+            "Somatostatinei;",
+            "Gastrinei;",
+            "Secretinei."
+        ],
+        "question": "Inhibitia secretiei de HCl este datorata:"
+    },
+    {
+        "correct_answer": "0 I, Rh - ?i B III, Rh -",
+        "answers": [
+            "0 I, Rh ?i B III, Rh -",
+            "0 I, Rh - ?i B III, Rh",
+            "0 I, Rh - ?i B III, Rh -",
+            "0 I, Rh ?i B III, Rh",
+            "0 I ?i B III, indiferent de Rh"
+        ],
+        "question": "Un pacient cu grupa B III, Rh - poate primi o transfuzie sangvina de la persoane cu grupa:"
+    },
+    {
+        "correct_answer": "Radacina posterioara a nervului spinal prezinta pe traiectul sau ganglionul spinal, la nivelul caruia sunt localizatiatat neuronii somatosenzitivi, cat si neuronii viscerosenzitivi",
+        "answers": [
+            "Radacina posterioara a nervului spinal prezinta pe traiectul sau ganglionul spinal, la nivelul caruia sunt localizatiatat neuronii somatosenzitivi, cat si neuronii viscerosenzitivi",
+            "Centrul reflexului miotatic se gaseste in nucleul ambiguu din bulb",
+            "Nervii olfactivi au originea reala in celulele multipolare din mucoasa olfactiva",
+            "Medial de santul olfactiv se afla santurile orbitare dispuse sub forma literei H, intre care se delimiteaza girii orbitali",
+            "Fibrele comisurale unesc cele doua emisfere, formand corpul calos, trigonal cerebral si comisura alba posterioara"
+        ],
+        "question": "Identificati afirma?ia corecta:"
+    },
+    {
+        "correct_answer": "STH",
+        "answers": [
+            "ACTH",
+            "TSH",
+            "STH",
+            "FSH",
+            "LH"
+        ],
+        "question": "NU este hormon glandulotrop al hipofizei:"
+    },
+    {
+        "correct_answer": "Mg2+ 3,3g",
+        "answers": [
+            "Acid uric 0,6-0,8g",
+            "Apa 95 %",
+            "Mg2+ 3,3g",
+            "Leucocite",
+            "Uree 25g"
+        ],
+        "question": "In urina finala (in cantitatea raportata la 24 h) se gasesc compu?i precum, CU EXCEP?IA:"
+    },
+    {
+        "correct_answer": "Aria vizuala primara se intinde mai ales pe fata laterala a lobilor occipitali, de o parte si de alta a scizurii calcarine",
+        "answers": [
+            "Urechea medie este o cavitate pneumatica in stanca temporalului",
+            "In centrul organului Corti se gaseste un spatiu triunghiular numit tunelul Corti",
+            "De la nucleii vestibulari din bulb pleaca fasciculul vestibulo-spinal spre maduva (controleaza tonusul muscular)",
+            "Spatiul cuprins cu privirea se numeste camp vizual",
+            "Aria vizuala primara se intinde mai ales pe fata laterala a lobilor occipitali, de o parte si de alta a scizurii calcarine"
+        ],
+        "question": "Identificati afirmatia FALSA:"
+    },
+    {
+        "correct_answer": "Epitelial pseudostratificat",
+        "answers": [
+            "Exocrin",
+            "Epitelial pseudostratificat",
+            "Conjunctiv moale",
+            "Conjunctiv semidur",
+            "Senzorial"
+        ],
+        "question": "Epiteliul traheal este de tip:"
+    },
+    {
+        "correct_answer": "Adrenalina",
+        "answers": [
+            "Insulina",
+            "Dopamina",
+            "Cortizol",
+            "Tiroxina",
+            "Adrenalina"
+        ],
+        "question": "Glicogenoliza este activata de:"
+    },
+    {
+        "correct_answer": "Mu?chiul nicovalei",
+        "answers": [
+            "Ciocanul",
+            "Mu?chiul ciocanului",
+            "Scari?a",
+            "Nicovala",
+            "Mu?chiul nicovalei"
+        ],
+        "question": "Urechea medie NU con?ine in interiorul sau:"
+    },
+    {
+        "correct_answer": "Perturbarea absorbtiei intestinale a acidului folic sau vitaminei B12",
+        "answers": [
+            "Alterarea producerii de hemoglobina",
+            "Aport insuficient de fier",
+            "Pierdere de sange (hemoragie)",
+            "Perturbarea absorbtiei intestinale a acidului folic sau vitaminei B12",
+            "Perturbarea absorbtei intestinale a calciului"
+        ],
+        "question": "Anemia megaloblastica apare prin:"
+    },
+    {
+        "correct_answer": "Sensul transportului este din interstitiul peritubular inspre interiorul tubului",
+        "answers": [
+            "Prin secretie tubulara se elimina doar substante toxice",
+            "Mecanismele secretiei tubulare sunt doar active",
+            "Sensul transportului este din interstitiul peritubular inspre interiorul tubului",
+            "Prin secretie, rinichiul intervine in reglarea concentratiei plasmalemale de K+",
+            "Procesele de secretie nu au loc pe toata lungimea nefronului"
+        ],
+        "question": "Una dintre urmatoarele afirmatii despre secre?ia tubulara este adevarata:"
+    },
+    {
+        "correct_answer": "Se deschid in timpul diastolei, permitand sangelui sa treaca in ventricule",
+        "answers": [
+            "Se deschid in timpul sistolei, permitand sangelui sa treaca in atrii",
+            "Se deschid in timpul diastolei, permitand sangelui sa treaca in ventricule",
+            "Permit expulzia sangelui in artere",
+            "Impiedica revenirea sangelui in ventricule",
+            "Se mai numesc si valve semilunare"
+        ],
+        "question": "Valvele atrio-ventriculare:"
+    },
+    {
+        "correct_answer": "Perechea III inerveaza mu?chiul drept superior al globului ocular.",
+        "answers": [
+            "Fibrele vegetative ale perechii IX (pneumogastrici) provin din nucleul salivator inferior din bulb.",
+            "Nucleul de origine al perechii IV este situat in punte.",
+            "Originea aparenta a perechii VIII se afla la nivelul ?antului retro-olivar.",
+            "Perechea III inerveaza mu?chiul drept superior al globului ocular.",
+            "Fibrele perechii XII culeg excitatii gustative de la nivelul bazei radacinii limbii."
+        ],
+        "question": "Este adevarat despre nervii cranieni:"
+    },
+    {
+        "correct_answer": "Concentra?ia crescuta de estrogeni asupra gonadelor",
+        "answers": [
+            "Concentra?ia crescuta de hormoni tiroidieni asupra adenohipofizei ?i hipotalamusului",
+            "Concentra?ia crescuta de estrogeni asupra gonadelor",
+            "Concentra?ia crescuta de cortizol asupra hipofizei anterioare",
+            "Concentra?ia crescuta sanguina de Ca2+ asupra scaderii secre?iei de PTH",
+            "Concentra?ia crescuta de glucoza sanguina asupra cre?terii secre?iei de insulina"
+        ],
+        "question": "Mecanismul umoral de feedback negativ este declan?at de urmatoarele situa?ii, CU EXCEP?IA:"
+    },
+    {
+        "correct_answer": "Au rol bacteriostatic",
+        "answers": [
+            "Au rol de emulsionare a proteinelor din alimente, a caror tensiune superficiala o reduc",
+            "Ajuta la absorb?ia din tractul intestinal a aminoacizilor",
+            "Inhiba motilitatea intestinala",
+            "Au rol bacteriostatic",
+            "Faciliteaza activitatea amilazei pancreatice"
+        ],
+        "question": "Este adevarata urmatoarea afirma?ie referitoare la sarurile biliare:"
+    },
+    {
+        "correct_answer": "Sistemul nervos enteric al esofagului.,",
+        "answers": [
+            "Trunchiul cerebral;",
+            "Nervul vag;",
+            "Nervul accesor;",
+            "Sistemul nervos enteric al esofagului.,",
+            "Nervul glosofaringian."
+        ],
+        "question": "In timpul esofagian al deglutitiei, peristaltismul secundar este coordonat de:"
+    },
+    {
+        "correct_answer": "6 mmHg.",
+        "answers": [
+            "47 mmHg;",
+            "40 mmHg;",
+            "50 mmHg;",
+            "25 mmHg;",
+            "6 mmHg."
+        ],
+        "question": "Gradientul dintre presiunile partiale ale CO2 din aerul alveolar si sangele din capilarele pulmonare este de:"
+    },
+    {
+        "correct_answer": "Hematopoieza",
+        "answers": [
+            "Vedere",
+            "Respira?ie tisulara",
+            "Hematopoieza",
+            "Circula?ie periferica",
+            "Func?ionarea sistemului nervos central"
+        ],
+        "question": "Care este afirma?ia adevarata cu privire la rolul vitaminei B12 in organism:"
+    },
+    {
+        "correct_answer": "5-15cm",
+        "answers": [
+            "7-5 u;",
+            "8-10u;",
+            "5-15u;",
+            "7,5u;",
+            "5-15cm"
+        ],
+        "question": "Fibra musculara striata are urmatoarele dimensiuni:"
+    },
+    {
+        "correct_answer": "Receptorii maculari detecteaza viteza de deplasare a corpului, respectiv a capului",
+        "answers": [
+            "Crestele ampulare ?i cupolele gelatinoase, care se gasesc la baza canalelor semicirculare, reprezinta cel de-al doilea organ receptor al analizatorului vestibular",
+            "Cilii celulelor senzoriale din canalele semicirculare sunt excita?i mecanic de deplasarea endolimfei",
+            "Receptorii maculari detecteaza viteza de deplasare a corpului, respectiv a capului",
+            "Din cauza iner?iei, endolimfa va suferi o deplasare relativa in sens opus ?i va inclina cupola in sensul mi?carii de deplasare",
+            "Receptorii otolitici nu participa la men?inerea echilibrului in condi?iile accelerarilor circulare ale capului ?i corpului"
+        ],
+        "question": "Identifica?i afirma?ia falsa:"
+    },
+    {
+        "correct_answer": "Intre tuberculii cvadrigemeni superiori",
+        "answers": [
+            "Intre tuberculii cvadrigemeni inferiori",
+            "Intre tuberculii cvadrigemeni superiori",
+            "Superior de chiasma optica",
+            "Superior de tuberculii cvadrigemeni superiori",
+            "Intre coliculii geniculati superiori"
+        ],
+        "question": "Epifiza este situata:"
+    },
+    {
+        "correct_answer": "Presiunea partiala a O2 este 40mmHg;",
+        "answers": [
+            "Celulele consuma CO2 pentru producerea de energie;",
+            "Se formeaza bicarbonati din combinarea O2 cu H2O;",
+            "Presiunea partiala a O2 este 40mmHg;",
+            "Presiunea partiala a O2 este 100 mmHg;",
+            "Presiunea partiala a CO2 este de 100 mmHg."
+        ],
+        "question": "In cadrul respiratiei la nivel celular:"
+    },
+    {
+        "correct_answer": "Se datoreaza iesirii K+ din celula",
+        "answers": [
+            "Se datoreaza intrarii K+ in celula",
+            "Se numeste depolarizare",
+            "Se datoreaza iesirii K+ din celula",
+            "Se datoreaza iesirii Na+ din celula",
+            "Se datoreaza intrarii Na+ in celula"
+        ],
+        "question": "Panta descendenta a potentialului de actiune:"
+    },
+    {
+        "correct_answer": "Este legata de regiunea mediana a hipotalamusului prin sistemul port hipotalamo-hipolizar",
+        "answers": [
+            "Este reprezentat de o lama epiteliala",
+            "Constituie 50% din masa hipofizei",
+            "Este legata de hipotalamus prin tractul nervos hipotalamo-hipofizar",
+            "Regleaza activitatea hipotalamusului",
+            "Este legata de regiunea mediana a hipotalamusului prin sistemul port hipotalamo-hipolizar"
+        ],
+        "question": "Lobul anterior hipofizar:"
+    },
+    {
+        "correct_answer": "Asigura desfa?urarea principalelor func?ii vitale",
+        "answers": [
+            "Faza dispersata este apa",
+            "Partea structurata este reprezentata de hialoplasma",
+            "Asigura desfa?urarea principalelor func?ii vitale",
+            "Mediul de dispersie este reprezentat de miceliile coloidale",
+            "Partea nestructurata este reprezentata de organite specifice"
+        ],
+        "question": "Despre citoplasma se poate afirma ca:"
+    },
+    {
+        "correct_answer": "Unele pot interveni in prima faza a procesului de coagulare",
+        "answers": [
+            "Pot intra in alcatuirea unor enzime",
+            "Sunt precursori ai tuturor hormonilor",
+            "Unele pot interveni in prima faza a procesului de coagulare",
+            "Degradarea unui gram de lipide elibereaza 4.1 kcal",
+            "Intra in constitutia unor citomembrane"
+        ],
+        "question": "Lipidele:"
+    },
+    {
+        "correct_answer": "Receptorii pentru cald ii depasesc numeric pe cei pentru rece",
+        "answers": [
+            "Nervii olfactivi strabat lama ciuruita a etmoidului ?i se termina in bulbul olfactiv",
+            "Impulsul nervos se transmite neuronului a, ceea ce duce la contractia fibrelor extrafusale, determinand contractia muschiului",
+            "Fusurile neuromusculare au inervatie senzitiva motorie",
+            "Corpusculii Pacini se adapteaza foarte rapid ?i receptioneaza vibratiile",
+            "Receptorii pentru cald ii depasesc numeric pe cei pentru rece"
+        ],
+        "question": "Identificati afirmatia FALSA:"
+    },
+    {
+        "correct_answer": "Peretele globului ocular prezinta doua tunici concentrice",
+        "answers": [
+            "Analizatorul vizual furnizeaza peste 90% din informatiile asupra mediului inconjurator",
+            "Globul ocular are forma aproximativ sferica",
+            "Globul ocular este situat in orbita",
+            "Peretele globului ocular prezinta doua tunici concentrice",
+            "Peretele globului ocular este format din tunici concentrice si medii refrigente"
+        ],
+        "question": "Alegeti varianta falsa:"
+    },
+    {
+        "correct_answer": "Arahnoida are o structura conjunctiva si este separata de dura mater printr-un spatiu care contine lichid ceralorahidian (LCR)",
+        "answers": [
+            "Protoneurontil caii tactile grosiere protopatice se afla in ganglionul spinal.",
+            "Arahnoida are o structura conjunctiva si este separata de dura mater printr-un spatiu care contine lichid ceralorahidian (LCR)",
+            "Aparitia unui potential de actiune intr-o zona a membranei neuronale determina aparitia unui nou potential de actiune in zona vecina",
+            "Neuronii intercalari (de asociatie) fac legatura intre neuronii senzitivi ?i motori",
+            "Neuronii multipolari au o forma stelata, piramidala, sau piriforma si prezinta numeroase prelungiri dendritice si un axon"
+        ],
+        "question": "Afirmatia FALSA este:"
+    },
+    {
+        "correct_answer": "Doua membrane Z",
+        "answers": [
+            "Doua membrane H luminoase",
+            "Doua discuri clare (banda I)",
+            "O banda Z si o banda H",
+            "Doua membrane Z",
+            "Un filament de actina si unul de miozina"
+        ],
+        "question": "Sarcomerul, unitatea morfofunctionala a miofibrilei, este cuprins intre:"
+    },
+    {
+        "correct_answer": "420 ml/100 g ?esut/min",
+        "answers": [
+            "680 ml/100 g ?esut/min",
+            "420 ml/100 g ?esut/min",
+            "250 ml/100 g ?esut/min",
+            "1800 ml/100 g ?esut/min",
+            "1200 ml/100 g ?esut/min"
+        ],
+        "question": "Debitul sangvin renal este de aproximativ:"
     }
 ]
