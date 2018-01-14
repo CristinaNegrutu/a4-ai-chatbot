@@ -27,7 +27,7 @@
                 <div class="button minimize"></div>
                 <div class="button maximize"></div>
             </div>
-            <div class="title">Chatbot</div>
+            <div class="title">Tutore inteligent</div>
         </div>
 		
 		<ul id="msg" class="messages">
@@ -73,9 +73,12 @@ function send_text(text) {
 				text_box.innerHTML = text_messages;
             }
         };
-        xmlhttp.open("POST", "/", true);
+        xmlhttp.open("POST", "/respond", true);
         xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
         xmlhttp.send("text=" + text);
+
+        document.getElementById("msg").scrollTop = document.getElementById("msg").scrollHeight;
+
 }
 
 function write_text() {
