@@ -59,9 +59,7 @@
             </div>
         </li>
     </div>
-    <div id="ss">
 
-    </div>
 </div>
 
 
@@ -168,8 +166,10 @@
 
         localStorage.setItem("quiz_index", 1);
         localStorage.setItem("correct_answers", 0);
+        if (localStorage.getItem("who_asks") === "chatbot") {
+            generate_question();
 
-        generate_question();
+        }
 
     });
 
