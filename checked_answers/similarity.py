@@ -116,7 +116,7 @@ def eliminare_sinonime_neblocant(listaTest, listaStudent):
             if i in ['ă', 'î', 'ș', 'ț', 'â']:
                 arediacritice = 1
         if arediacritice == 0:
-            variableNamePython = subprocess.Popen(["java", "-jar", "C:\\Users\\botez\\Desktop\\sinonim.jar", cuvantTest],stdout=subprocess.PIPE)
+            variableNamePython = subprocess.Popen(["java", "-jar", "sinonim.jar", cuvantTest],stdout=subprocess.PIPE)
             JavaVariableReturned = variableNamePython.stdout.read().decode(encoding='utf-16')
             listaSinonime = (re.findall("(\w+)", JavaVariableReturned))
             for sinonim in listaSinonime:
