@@ -16,17 +16,19 @@ class AimlChatbot(IChatbot):
         self._kernel = None
 
     def initialize(self, aiml_file_path):
+        aiml_file_path = os.path.abspath(aiml_file_path)
+
         self._kernel = aiml.Kernel()
-        old_path = os.getcwd()
-
-        # TODO: fix this, not loading properly
-        os.chdir(os.path.dirname(aiml_file_path))
-        sys.path.insert(0, os.path.dirname(aiml_file_path))
-
         self._kernel.learn(aiml_file_path)
+
+        old_working_dir = os.getcwd()
+
+        # change working directory in order to load AIML properly
+        os.chdir(os.path.dirname(aiml_file_path))
+
         self._kernel.respond('LOAD AIML B')
 
-        os.chdir(old_path)
+        os.chdir(old_working_dir)
 
     def answer(self, question, *args, **kwargs):
         ans = self._kernel.respond(question)

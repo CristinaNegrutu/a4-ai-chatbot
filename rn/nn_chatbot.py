@@ -16,6 +16,7 @@ class NNChatbot(IChatbot):
 
     def initialize(self):
         inference('initialize') # any text will do, first inference loads the model
+        print('Loaded neural network chatbot model!')
 
     def answer(self, question, *args, **kwargs):
         try:
