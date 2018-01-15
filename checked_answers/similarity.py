@@ -1,5 +1,7 @@
 import subprocess
 import distance
+import jellyfish
+import os
 import re
 import math
 from collections import Counter
@@ -143,15 +145,6 @@ def eliminare_sinonime_neblocant(listaTest, listaStudent):
     return (listaTest, listaStudent)
 
 
-def eliminare_sinonime_blocant(raspunsTest, raspunsStudent):
-    variableNamePython = subprocess.Popen(["java", "-jar", "C:\\Users\\botez\\Desktop\\sinonim.jar", cuvant],
-                                          stdout=pout)
-    JavaVariableReturned = variableNamePython.stdout.read()
-    while True:
-        s = os.read(pin, 1000).decode("UTF-16")
-        print(s)
-
-
 def similaritate(raspunsTest, raspunsStudent):
     listaCuvinteDexTest = listaCuvinteDex(raspunsTest)
     listaCuvinteDexStudent = listaCuvinteDex(raspunsStudent)
@@ -197,7 +190,5 @@ def similaritate(raspunsTest, raspunsStudent):
                     (len(listaRelevantaStudent) / len(cuvinte_relevante(raspunsStudent))) <= 0.2):
             return True
     return False
-
-
 
     # print(similaritate(raspunsTest,raspunsStudent))

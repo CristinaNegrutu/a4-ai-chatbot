@@ -4,6 +4,7 @@ import time
 from bs4 import BeautifulSoup
 import os
 
+
 def find_between(s, first, last):
     try:
         start = s.index(first) + len(first)
