@@ -8,6 +8,7 @@ sys.path.insert(0, parentdir)
 
 from rule_based_chatbot import ChatBot
 from training_data import validate_question
+from checked_answers import checked_answers
 
 app = Flask(__name__)
 
@@ -59,6 +60,8 @@ def validate_response():
 
 def is_answer_correct(user_answer, correct_answer, question):
     # aici va fi apelata functia care va verifica raspunsul utilizatorului si va decide daca este sau nu corect
+    if checked_answers.raspuns(question, correct_answer, user_answer):
+        return True
     return False
 
 

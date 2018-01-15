@@ -56,13 +56,12 @@ def populate_lists(url, text, ex_path, checker):
 
     return matrix
 
-
-# printing a list of lists for WebPosRo
-webpos = populate_lists(r"http://nlptools.info.uaic.ro/WebPosRo/", r"Textul nr. 1 pentru WebPosRo.", r"C:\Users\Reflex\Desktop\chromedriver", 1)
-print(webpos)
-
-# printing a list of lists for WebNpChunkerRo
-webchunk = populate_lists(r"http://nlptools.info.uaic.ro/WebNpChunkerRo/", r"Înserare text numărul doi.", r"C:\Users\Reflex\Desktop\chromedriver", 0)
-print(webchunk)
-
-# the format is: word from text - lemma - POS
+# # printing a list of lists for WebPosRo
+# webpos = populate_lists(r"http://nlptools.info.uaic.ro/WebPosRo/", r"Textul nr. 1 pentru WebPosRo.", r"C:\Users\Reflex\Desktop\chromedriver", 1)
+# print(webpos)
+#
+# # printing a list of lists for WebNpChunkerRo
+# webchunk = populate_lists(r"http://nlptools.info.uaic.ro/WebNpChunkerRo/", r"Înserare text numărul doi.", r"C:\Users\Reflex\Desktop\chromedriver", 0)
+# print(webchunk)
+#
+# # the format is: word from text - lemma - POS
