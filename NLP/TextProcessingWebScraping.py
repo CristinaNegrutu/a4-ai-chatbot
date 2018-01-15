@@ -2,7 +2,7 @@ import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from bs4 import BeautifulSoup
-
+import os
 
 def find_between(s, first, last):
     try:
@@ -13,7 +13,7 @@ def find_between(s, first, last):
         return ""
 
 
-def populate_lists(url, text, ex_path, checker):
+def populate_lists(url, text, checker):
     # Some options...
     options = Options()
     options.add_argument("start-maximized")
@@ -22,7 +22,7 @@ def populate_lists(url, text, ex_path, checker):
     options.add_experimental_option("detach", True)
 
     # Choose the browser (default is Firefox)
-    driver = webdriver.Chrome(executable_path=ex_path, options=options)
+    driver = webdriver.Chrome(executable_path=os.path.realpath('chromedriver'), options=options)
 
     # Fill in the url
     driver.get(url)
