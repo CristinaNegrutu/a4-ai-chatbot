@@ -1,24 +1,44 @@
 import sys
 import os
-sys.path.append(r'.')
-os.chdir(r'aimls')
-import aiml
+
+from rn.common.chatbot_i import IChatbot
+from rn.nn_chatbot import NNChatbot
+from rule_based_chatbot.aiml_chatbot import AimlChatbot
+#
+# sys.path.append(r'.')
+# os.chdir(r'aimls')
+# import aiml
+
+class FullChatbot(IChatbot):
+    def __init__(self):
+        super().__init__()
+        self._aiml_chatbot = None
+        self._nn_chatbot = None
+
+    def initialize(self, aiml_file_path, *args, **kwargs):
+        self._aiml_chatbot = AimlChatbot()
+        self._aiml_chatbot.initialize(aiml_file_path)
+
+        self._nn_chatbot = NNChatbot()
+        self._nn_chatbot.initialize()
+
+    def answer(self, question, *args, **kwargs):
+        aiml_ans = self._aiml_chatbot.answer(question)
+
+        if aiml_ans is None:
+            return self._nn_chatbot.answer(question)
+        else:
+            return aiml_ans
 
 if __name__ == '__main__':
-    
-    chat_bot = aiml.Kernel()
 
-    chat_bot.learn('startup.xml')
+    AIML_FILE_PATH = 'aimls/startup.xml'
 
-    chat_bot.respond('load aiml b')
-    
+    chatbot = FullChatbot()
+    chatbot.initialize(AIML_FILE_PATH)
+
     while True:
         user_input = input('You >')
-        bot_response = chat_bot.respond(user_input)
-        
-        if bot_response == "Sorry. I didn't quite get that.":
-            # Use the neural network to generate a response
-            pass
-        else:
-            print(bot_response)
+        bot_response = chatbot.answer(user_input)
+        print(bot_response)
 
