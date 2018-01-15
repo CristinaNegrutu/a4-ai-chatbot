@@ -4,7 +4,8 @@ import time
 from bs4 import BeautifulSoup
 import os
 
-CHROMEDRIVER_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'chromedriver.exe')
+PHANTOMJS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'phantomjs.exe')
+
 
 def find_between(s, first, last):
     try:
@@ -24,7 +25,7 @@ def populate_lists(url, text, checker):
     options.add_experimental_option("detach", True)
 
     # Choose the browser (default is Firefox)
-    driver = webdriver.Chrome(executable_path=os.path.realpath(CHROMEDRIVER_PATH), options=options)
+    driver = webdriver.PhantomJS(executable_path=PHANTOMJS_PATH)
 
     # Fill in the url
     driver.get(url)
@@ -58,12 +59,13 @@ def populate_lists(url, text, checker):
 
     return matrix
 
+
 # # printing a list of lists for WebPosRo
-# webpos = populate_lists(r"http://nlptools.info.uaic.ro/WebPosRo/", r"Textul nr. 1 pentru WebPosRo.", r"C:\Users\Reflex\Desktop\chromedriver", 1)
-# print(webpos)
+webpos = populate_lists(r"http://nlptools.info.uaic.ro/WebPosRo/", r"Textul nr. 1 pentru WebPosRo.", 1)
+print(webpos)
 #
 # # printing a list of lists for WebNpChunkerRo
-# webchunk = populate_lists(r"http://nlptools.info.uaic.ro/WebNpChunkerRo/", r"Înserare text numărul doi.", r"C:\Users\Reflex\Desktop\chromedriver", 0)
-# print(webchunk)
+webchunk = populate_lists(r"http://nlptools.info.uaic.ro/WebNpChunkerRo/", r"Înserare text numărul doi.", 0)
+print(webchunk)
 #
 # # the format is: word from text - lemma - POS
