@@ -12,6 +12,8 @@ from collections import defaultdict
 
 # raspunsStudent = [["Din","ADPOSITION","Din"],["substanță","NOUN","substanță"],["cenușie","ADJECTIVE","cenușiu"],["și","CONJUNCTION","și"],["substanță","NOUN","substanță"],["albă","ADJECTIVE","alb"],["aici","ADVERB","aici"],["predomină","VERB","predomina"],["prelungirile","NOUN","prelungire"],["nervoase","ADJECTIVE","nervos"],["celulelor","NOUN","celulă"],["nervoase","ADJECTIVE","nervos"]]
 
+SIMILARITY_JAR_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sinonim.jar')
+
 
 def get_cosine(vec1, vec2):
     intersection = set(vec1.keys()) & set(vec2.keys())
@@ -131,7 +133,7 @@ def eliminare_sinonime_neblocant(listaTest, listaStudent):
             if i in ['ă', 'î', 'ș', 'ț', 'â']:
                 arediacritice = 1
         if arediacritice == 0:
-            variableNamePython = subprocess.Popen(["java", "-jar", "sinonim.jar", cuvantTest], stdout=subprocess.PIPE)
+            variableNamePython = subprocess.Popen(["java", "-jar", SIMILARITY_JAR_PATH, cuvantTest], stdout=subprocess.PIPE)
             JavaVariableReturned = variableNamePython.stdout.read().decode(encoding='utf-16')
             listaSinonime = (re.findall("(\w+)", JavaVariableReturned))
             for sinonim in listaSinonime:
