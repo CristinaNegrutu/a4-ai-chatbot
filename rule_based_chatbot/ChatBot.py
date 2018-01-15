@@ -4,10 +4,7 @@ import os
 from rn.common.chatbot_i import IChatbot
 from rn.nn_chatbot import NNChatbot
 from rule_based_chatbot.aiml_chatbot import AimlChatbot
-#
-# sys.path.append(r'.')
-# os.chdir(r'aimls')
-# import aiml
+
 
 class FullChatbot(IChatbot):
     def __init__(self):
@@ -30,15 +27,26 @@ class FullChatbot(IChatbot):
         else:
             return aiml_ans
 
+
+AIML_FILE_PATH = 'aimls/startup.xml'
+full_chatbot = None
+
+def from_ui(user_input):
+    global full_chatbot
+
+    if full_chatbot is None:
+        full_chatbot = FullChatbot()
+        full_chatbot.initialize(AIML_FILE_PATH)
+
+    return full_chatbot.answer(user_input)
+
 if __name__ == '__main__':
-
-    AIML_FILE_PATH = 'aimls/startup.xml'
-
-    chatbot = FullChatbot()
-    chatbot.initialize(AIML_FILE_PATH)
+    if full_chatbot is None:
+        full_chatbot = FullChatbot()
+        full_chatbot.initialize(AIML_FILE_PATH)
 
     while True:
         user_input = input('You >')
-        bot_response = chatbot.answer(user_input)
+        bot_response = full_chatbot.answer(user_input)
         print(bot_response)
 

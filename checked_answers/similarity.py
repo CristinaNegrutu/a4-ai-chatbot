@@ -1,21 +1,26 @@
+import subprocess
 import distance
 import jellyfish
+import os
 import re
 import math
 from collections import Counter
+from collections import defaultdict
 
-raspunsTest = [["maduva", "NOUN", "maduva"], ["spinarii", "NOUN", "spinare"], ["este", "VERB", "fi"], ["din","ADPOSITION","din"], ["formata", "NOUN","format"],["substanta","NOUN","substanta"],["cenusie","ADJECTIVE","cenusiu"],["unde","ADVERB","unde"],["unde","ADVERB","unde"],["predomina","VERB","predomina"],["celulele", "NOUN", "celula"],["nervoase","ADJECTIVE","nervos"],["si","CONJUNCTION","si"],["substanta","NOUN","substanta"],["alba","ADJECTIVE","alb"],["aici","ADVERB","aici"],["predomina","VERB","predomina"],["prelungirile","NOUN","prelungire"],["nervoase","ADJECTIVE","nervos"],["celulelor","NOUN","celula"],["nervoase","ADJECTIVE","nervos"]]
 
-raspunsStudent = [["Din","ADPOSITION","Din"],["substanta","NOUN","substanta"],["cenusie","ADJECTIVE","cenusiu"],["si","CONJUNCTION","si"],["substanta","NOUN","substanta"],["alba","ADJECTIVE","alb"],["aici","ADVERB","aici"],["predomina","VERB","predomina"],["prelungirile","NOUN","prelungire"],["nervoase","ADJECTIVE","nervos"],["celulelor","NOUN","celula"],["nervoase","ADJECTIVE","nervos"]]
-# raspunsStudent = [["Din","ADPOSITION","Din"],["substanta","NOUN","substanta"],["cenusie","ADJECTIVE","cenusiu"],["si","CONJUNCTION","si"],["substanta","NOUN","substanta"],["alba","ADJECTIVE","alb"]]
+# raspunsTest = [["măduva", "NOUN", "măduva"], ["spinării", "NOUN", "spinare"], ["este", "VERB", "fi"], ["din","ADPOSITION","din"], ["formată", "NOUN","format"],["substanță","NOUN","substanță"],["cenușie","ADJECTIVE","cenușiu"],["unde","ADVERB","unde"],["unde","ADVERB","unde"],["predomină","VERB","predomina"],["celulele", "NOUN", "celulă"],["nervoase","ADJECTIVE","nervos"],["și","CONJUNCTION","și"],["substanța","NOUN","substanță"],["albă","ADJECTIVE","alb"],["aici","ADVERB","aici"],["predomină","VERB","predomina"],["prelungirile","NOUN","prelungire"],["nervoase","ADJECTIVE","nervos"],["celulelor","NOUN","celulă"],["nervoase","ADJECTIVE","nervos"]]
+
+# raspunsStudent = [["Din","ADPOSITION","Din"],["substanță","NOUN","substanță"],["cenușie","ADJECTIVE","cenușiu"],["și","CONJUNCTION","și"],["substanță","NOUN","substanță"],["albă","ADJECTIVE","alb"],["aici","ADVERB","aici"],["predomină","VERB","predomina"],["prelungirile","NOUN","prelungire"],["nervoase","ADJECTIVE","nervos"],["celulelor","NOUN","celulă"],["nervoase","ADJECTIVE","nervos"]]
+
+SIMILARITY_JAR_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sinonim.jar')
 
 
 def get_cosine(vec1, vec2):
     intersection = set(vec1.keys()) & set(vec2.keys())
     numerator = sum([vec1[x] * vec2[x] for x in intersection])
 
-    sum1 = sum([vec1[x]**2 for x in vec1.keys()])
-    sum2 = sum([vec2[x]**2 for x in vec2.keys()])
+    sum1 = sum([vec1[x] ** 2 for x in vec1.keys()])
+    sum2 = sum([vec2[x] ** 2 for x in vec2.keys()])
     denominator = math.sqrt(sum1) * math.sqrt(sum2)
 
     if not denominator:
@@ -30,7 +35,7 @@ def text_to_vector(text):
     return Counter(words)
 
 
-def distanta_cosine(content_a, content_b):
+def scor_cosine(content_a, content_b):
     text1 = content_a
     text2 = content_b
 
@@ -41,74 +46,49 @@ def distanta_cosine(content_a, content_b):
     return cosine_result
 
 
-def creare_propozitie_din_lista (raspuns):
-    propozitie=""
-    for cuvant in raspuns:
-        propozitie += cuvant[2]
+def listaCuvinteDex(lista):
+    listaDex = []
+    for sublista in lista:
+        listaDex.append(sublista[2])
+    return listaDex
+
+
+def propozitie_din_lista(lista):
+    propozitie = ""
+    for cuvant in lista:
+        propozitie += cuvant
         propozitie += " "
     return propozitie
 
-def similarity_cosine(raspunsTest, raspunsStudent):
-    propozitieStudent=""
-    propozitieTest=""
 
-    propozitieStudent = creare_propozitie_din_lista(raspunsStudent)     # Modificarea listelor de cuvinte in
-    propozitieTest = creare_propozitie_din_lista(raspunsTest)           # propozitii de cuvinte(forma din DEX)
+def cuvinte_relevante(lista):
+    lista_noua = []
+    for element in lista:
+        if element[1].upper() in ("ADPOSITION", "ARTICLE", "CONJUNCTION", "ADVERB", "PRONOUN"):
+            pass
+        else:
+            lista_noua.append(element[2])
+    return lista_noua
 
-    if distanta_cosine(propozitieTest, propozitieStudent) < 0.9:        # Verificare similaritate pe stringuri
-        pass
 
-    substantiveStudent = []
-    for cuvantStudent in raspunsStudent:
-        if cuvantStudent[1] == "NOUN":
-            substantiveStudent.append(cuvantStudent[2])                 # Lista substantive Student
-    nrSubstStudent = len(substantiveStudent)
-    print(nrSubstStudent)
-
-    substantiveTest = []
-    for cuvantTest in raspunsTest:
-        if cuvantTest[1] == "NOUN":
-            substantiveTest.append(cuvantTest[2])                       # Lista substantive Test
-    nrSubstTest = len(substantiveTest)
-    print(nrSubstTest)
-
-    print("subst stud:", substantiveStudent)
-    print("subst test:", substantiveTest)
-    print("\n")
-
-    for substS in substantiveStudent.copy():
-        print("de eliminat: ", substS)
-        for substT in substantiveTest.copy():
-            print("     de elim:", substT)
-            if distance.levenshtein(substS, substT) < 2:
-                print("         eliminare: ", substS)
-                substantiveStudent.remove(substS)
-                substantiveTest.remove(substT)
+def eliminare_levenshtein(listaTest, listaStudent):
+    for cuvantStudent in listaStudent.copy():
+        for cuvantTest in listaTest.copy():
+            if distance.levenshtein(cuvantStudent, cuvantTest) < 2:
+                listaStudent.remove(cuvantStudent)
+                listaTest.remove(cuvantTest)
                 break
-    print("Nr de subst ramase in student: ", len(substantiveStudent))
-    print("Substantive student ramase: ", substantiveStudent)
-
-    print("Nr de subst ramase in test: ", len(substantiveTest))
-    print("Substantive test ramase: ", substantiveTest)
-
-    if len(substantiveTest) == 0:
-        print("1:sunt similare")
-    if len(substantiveTest) / nrSubstTest < 0.5 and len(substantiveStudent) / nrSubstStudent < 0.5:
-        print("2:sunt similare")
-    if len(substantiveStudent) / len(substantiveTest) > 0.8 and len(substantiveStudent) / nrSubstStudent < 0.5:
-        print("2:sunt similare")
+    return (listaTest, listaStudent)
 
 
 def functie_bigrame(cuvant):
     bigrame = []
-    for index in range(len(cuvant)-1):
-        bigrame.append(cuvant[index]+cuvant[index+1])
+    for index in range(len(cuvant) - 1):
+        bigrame.append(cuvant[index] + cuvant[index + 1])
     return bigrame
 
-def distanta_Sorensen(cuvantTest, cuvantStudent):
-    bigrameCuvantStudent = []
-    bigrameCuvantTest = []
 
+def distanta_Sorensen(cuvantTest, cuvantStudent):  # asemanare Sorensen
     bigrameCuvantStudent = functie_bigrame(cuvantStudent)
     bigrameCuvantTest = functie_bigrame(cuvantTest)
 
@@ -117,12 +97,100 @@ def distanta_Sorensen(cuvantTest, cuvantStudent):
         if (bigrama in bigrameCuvantTest):
             count += 1
 
-    proportieSimilaritate = ( 2 * count ) / (len(bigrameCuvantStudent) + len(bigrameCuvantTest) )
+    proportieSimilaritate = (2 * count) / (len(bigrameCuvantStudent) + len(bigrameCuvantTest))
     return proportieSimilaritate
+
+
+def eliminare_Sorensen(listaTest, listaStudent):  # eliminare cuvinte asemanatoare Sorensen
+    for cuvantStudent in listaStudent.copy():
+        for cuvantTest in listaTest.copy():
+            if distanta_Sorensen(cuvantStudent, cuvantTest) > 0.8:
+                listaStudent.remove(cuvantStudent)
+                listaTest.remove(cuvantTest)
+                break
+    return (listaTest, listaStudent)
+
 
 def distanta_Jaro(cuvantTest, cuvantStudent):
     return (jellyfish.jaro_distance(cuvantTest, cuvantStudent))
 
 
+def eliminare_Jaro(listaTest, listaStudent):  # eliminare cuvinte asemanatoare Sorensen
+    for cuvantStudent in listaStudent.copy():
+        for cuvantTest in listaTest.copy():
+            if distanta_Jaro(cuvantStudent, cuvantTest) > 0.8:
+                listaStudent.remove(cuvantStudent)
+                listaTest.remove(cuvantTest)
+                break
+    return (listaTest, listaStudent)
 
-similarity_cosine(raspunsTest, raspunsStudent)
+
+def eliminare_sinonime_neblocant(listaTest, listaStudent):
+    sinonime = defaultdict(list)
+    for cuvantTest in listaTest:
+        arediacritice = 0
+        for i in cuvantTest:
+            if i in ['ă', 'î', 'ș', 'ț', 'â']:
+                arediacritice = 1
+        if arediacritice == 0:
+            variableNamePython = subprocess.Popen(["java", "-jar", SIMILARITY_JAR_PATH, cuvantTest], stdout=subprocess.PIPE)
+            JavaVariableReturned = variableNamePython.stdout.read().decode(encoding='utf-16')
+            listaSinonime = (re.findall("(\w+)", JavaVariableReturned))
+            for sinonim in listaSinonime:
+                sinonime[cuvantTest].append(sinonim)
+    for cuvantTest in listaTest:
+        for cuvantStudent in listaStudent:
+            if cuvantStudent in sinonime[cuvantTest]:
+                listaStudent.remove(cuvantStudent)
+                listaTest.remove(cuvantTest)
+                break
+    return (listaTest, listaStudent)
+
+
+def similaritate(raspunsTest, raspunsStudent):
+    listaCuvinteDexTest = listaCuvinteDex(raspunsTest)
+    listaCuvinteDexStudent = listaCuvinteDex(raspunsStudent)
+
+    if sorted(listaCuvinteDexTest) == sorted(listaCuvinteDexStudent):  # raspunsuri identice
+        return 1
+
+    propozitieTest = propozitie_din_lista(listaCuvinteDexTest)
+    propozitieStudent = propozitie_din_lista(listaCuvinteDexStudent)
+
+    if scor_cosine(propozitieTest, propozitieStudent) > 0.85:  # raspunsuri asemanatoare
+        return 1
+
+    listaRelevantaStudent = cuvinte_relevante(raspunsStudent)
+    listaRelevantaTest = cuvinte_relevante(raspunsTest)
+    if scor_cosine(propozitie_din_lista(listaRelevantaStudent), propozitie_din_lista(
+            listaRelevantaTest)) > 0.90:  # dupa eliminarea cuvintelor irelevante, listele trebuie sa fie si mai similare
+        return 1  # raspunsuri fara cuvinte irelevante asemanatoare
+
+    for cuvantTest in listaRelevantaTest:
+        for cuvantStudent in listaRelevantaStudent:
+            if cuvantTest == cuvantStudent:
+                listaRelevantaTest.remove(cuvantTest)
+                listaRelevantaStudent.remove(cuvantStudent)  # eliminare cuvinte identice
+                break
+    # au ramas in lista de teste acele cuvinte care nu s-au regasit in raspunsul studentului
+    # aplicam intai sinonime sau functiile de distanta?!?!
+    # aplican intai distantele de similaritate pentru ca preluarea sinonimelor este foarte inceata
+
+    listaRelevantaTest, listaRelevantaStudent = eliminare_levenshtein(listaRelevantaTest,
+                                                                      listaRelevantaStudent)  # eliminare cuvinte asemanatoare
+
+    listaRelevantaTest, listaRelevantaStudent = eliminare_Sorensen(listaRelevantaTest, listaRelevantaStudent)
+
+    listaRelevantaTest, listaRelevantaStudent = eliminare_Jaro(listaRelevantaTest, listaRelevantaStudent)
+
+    listaRelevantaTest, listaRelevantaStudent = eliminare_sinonime_neblocant(listaRelevantaTest, listaRelevantaStudent)
+
+    if (len(listaRelevantaTest) == 0 and (len(listaRelevantaStudent) / len(cuvinte_relevante(raspunsStudent))) <= 0.2):
+        return True
+    else:
+        if ((len(listaRelevantaTest) / len(cuvinte_relevante(raspunsTest))) <= 0.2 and
+                    (len(listaRelevantaStudent) / len(cuvinte_relevante(raspunsStudent))) <= 0.2):
+            return True
+    return False
+
+    # print(similaritate(raspunsTest,raspunsStudent))

@@ -2,8 +2,18 @@
     box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  width: 800px;
+}
+
 body {
-    background-color: #edeff2;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Calibri", "Roboto", sans-serif;
 }
 
@@ -47,11 +57,12 @@ body {
     background-color: #fdbf68;
 }
 .top_menu .buttons .button.maximize {
-    background-color: #a3d063;
+    background-color: #3E52AC;
 }
 .top_menu .title {
     text-align: center;
-    color: #bcbdc0;
+    color: darkblue;
+
     font-size: 20px;
 }
 
@@ -171,8 +182,8 @@ body {
     height: 50px;
     display: inline-block;
     border-radius: 50px;
-    background-color: #a3d063;
-    border: 2px solid #a3d063;
+    background-color: #3E52AC;
+    border: 2px solid #3E52AC;
     color: #fff;
     cursor: pointer;
     transition: all 0.2s linear;
@@ -180,7 +191,7 @@ body {
     float: right;
 }
 .bottom_wrapper .send_message:hover {
-    color: #a3d063;
+    color: #3E52AC;
     background-color: #fff;
 }
 .bottom_wrapper .send_message .text {

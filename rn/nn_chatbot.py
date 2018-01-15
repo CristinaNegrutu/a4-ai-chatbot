@@ -30,5 +30,3 @@ class NNChatbot(IChatbot):
     def _choose_best_answer(self, answers):
         best_idx = answers['best_index']
         return answers['answers'][best_idx]
-
-print(NNChatbot().answer('how are you?'))
