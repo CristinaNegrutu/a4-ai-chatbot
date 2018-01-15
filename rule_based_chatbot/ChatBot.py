@@ -1,8 +1,5 @@
-import sys
-import os
-
 from rn.common.chatbot_i import IChatbot
-from rn.nn_chatbot import NNChatbot
+from rn.nn_chatbot import RomToRomNNChatbot
 from rule_based_chatbot.aiml_chatbot import AimlChatbot
 
 
@@ -16,7 +13,7 @@ class FullChatbot(IChatbot):
         self._aiml_chatbot = AimlChatbot()
         self._aiml_chatbot.initialize(aiml_file_path)
 
-        self._nn_chatbot = NNChatbot()
+        self._nn_chatbot = RomToRomNNChatbot()
         self._nn_chatbot.initialize()
 
     def answer(self, question, *args, **kwargs):
@@ -30,6 +27,7 @@ class FullChatbot(IChatbot):
 
 AIML_FILE_PATH = 'aimls/startup.xml'
 full_chatbot = None
+
 
 def from_ui(user_input):
     global full_chatbot
