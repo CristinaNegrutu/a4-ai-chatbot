@@ -4,6 +4,7 @@ import time
 from bs4 import BeautifulSoup
 import os
 
+CHROMEDRIVER_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'chromedriver.exe')
 
 def find_between(s, first, last):
     try:
@@ -23,7 +24,7 @@ def populate_lists(url, text, checker):
     options.add_experimental_option("detach", True)
 
     # Choose the browser (default is Firefox)
-    driver = webdriver.Chrome(executable_path=os.path.realpath('chromedriver'), options=options)
+    driver = webdriver.Chrome(executable_path=os.path.realpath(CHROMEDRIVER_PATH), options=options)
 
     # Fill in the url
     driver.get(url)
