@@ -40,9 +40,11 @@ class RomToRomNNChatbot(NNChatbot):
         super().__init__()
         self._rom_to_eng = None
         self._eng_to_rom = None
+        self._debug = False
 
-    def initialize(self):
+    def initialize(self, debug=False):
         super().initialize()
+        self._debug = debug
         self._rom_to_eng = Translator(from_lang='ro',to_lang='en')
         self._eng_to_rom = Translator(from_lang='en',to_lang='ro')
 
@@ -51,6 +53,10 @@ class RomToRomNNChatbot(NNChatbot):
             eng_question = self._rom_to_eng.translate(rom_question)
             eng_answer   = super().answer(eng_question)
             rom_answer   = self._eng_to_rom.translate(eng_answer)
+
+            if self._debug:
+                print(rom_question, eng_question)
+                print(eng_answer, rom_answer)
             return rom_answer
 
         except Exception:

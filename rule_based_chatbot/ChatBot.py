@@ -17,7 +17,7 @@ class FullChatbot(IChatbot):
         self._aiml_chatbot.initialize(aiml_file_path)
 
         self._nn_chatbot = RomToRomNNChatbot()
-        self._nn_chatbot.initialize()
+        self._nn_chatbot.initialize(debug=False)
 
     def answer(self, question, *args, **kwargs):
         try:
