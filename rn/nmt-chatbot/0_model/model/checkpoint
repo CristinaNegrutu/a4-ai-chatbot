@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/cosmin/Work/An3/AI/a4-ai-chatbot/rn/nmt-chatbot/model/translate.ckpt-0"
+all_model_checkpoint_paths: "/home/cosmin/Work/An3/AI/a4-ai-chatbot/rn/nmt-chatbot/model/translate.ckpt-0"
