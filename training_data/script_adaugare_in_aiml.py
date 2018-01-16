@@ -106,14 +106,18 @@ def update(filename,intrebare,raspuns,flag):
             if flag==1:
                 new_buffer=buffer[:i+lungime+22]+"\n<random><li>"+raspuns+"</li></random>"+buffer[i+lungime+22:]
                 file.write(new_buffer)
+                file.close()
                 return
             else:
                 for j in range(i,len(buffer)-lungime):
                     if buffer[j:j+len("</random>")]=="</random>":
                         new_buffer = buffer[:j] + "\t<li>" + raspuns + "</li>\n\t" + buffer[j:]
                         file.write(new_buffer)
+                        file.close()
                         return
-
+    file.write(buffer)
+    file.close()
+    return
 
 is_initialized=True
 
@@ -123,6 +127,7 @@ if not is_initialized:
     file.write(buffer)
     file.close()
     initializare_intrebari(output)
+
 def adauga_intrebare_raspuns(filename,intrebare,raspuns,tip):
     file = open(filename, 'r')
     buffer = file.read()
@@ -222,7 +227,7 @@ def adauga_intrebare_raspuns(filename,intrebare,raspuns,tip):
 
 
 
-lines = [line.rstrip('\n') for line in open(input_file)]
+lines = [line for line in open(input_file)]
 for line in lines:
     args=line.split('^')
     adauga_intrebare_raspuns(output,corecteaza_intrebare(args[1]),corecteaza_intrebare(args[2]),args[0])
