@@ -23,7 +23,7 @@ class NNChatbot(IChatbot):
     def answer(self, question, *args, **kwargs):
         try:
             answers = inference(question, False)
-        except Exception as e:
+        except Exception:
             sys.stdout.flush()
             traceback.print_exc()
             return None
@@ -53,7 +53,7 @@ class RomToRomNNChatbot(NNChatbot):
             rom_answer   = self._eng_to_rom.translate(eng_answer)
             return rom_answer
 
-        except Exception as e:
+        except Exception:
             sys.stdout.flush()
             traceback.print_exc()
             return None
