@@ -33,7 +33,7 @@ class FullChatbot(IChatbot):
             traceback.print_exc()
             return None
 
-AIML_FILE_PATH = 'aimls/startup.xml'
+AIML_FILE_PATH = '../rule_based_chatbot/aimls/startup.xml'
 
 chatbot = FullChatbot()
 chatbot.initialize(AIML_FILE_PATH)

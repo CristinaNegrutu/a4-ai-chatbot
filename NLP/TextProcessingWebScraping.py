@@ -4,7 +4,7 @@ import time
 from bs4 import BeautifulSoup
 import os
 
-PHANTOMJS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'phantomjs.exe')
+PHANTOMJS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'phantomjs')
 
 
 def find_between(s, first, last):

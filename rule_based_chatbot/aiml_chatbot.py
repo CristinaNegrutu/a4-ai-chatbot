@@ -1,6 +1,6 @@
 import os
 
-import aiml
+import rule_based_chatbot.aiml as aiml
 import sys
 
 from rn.common.chatbot_i import IChatbot

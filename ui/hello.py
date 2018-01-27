@@ -51,7 +51,7 @@ def generate_question():
 @app.route('/validate', methods=['POST'])
 def validate_response():
     user_answer = request.form["user_answer"]
-    correct_answer = request.form["user_answer"]
+    correct_answer = request.form["correct_answer"]
     question = request.form["question"]
 
     response = is_answer_correct(user_answer, correct_answer, question)
